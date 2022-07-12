@@ -1,3 +1,21 @@
+Package: Flex3beta
+Version: 1:3~Beta98
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3_3~Beta98.deb
+Size: 14346600
+MD5sum: 693c569e78f37e6d0e9c2e63287bc97e
+SHA1: c6b44a4c7ef73f7b68240775ee58f7591c14d2e4
+SHA256: 2b71e64db3e4b352ef73d54e76e0808bb122c614d97160bf5338b903d2d8f6a4
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
 Package: anondev.localiapstore
 Version: 1.4-1
 Architecture: iphoneos-arm
@@ -170,6 +188,24 @@ Depiction: https://chariz.com/get/aemulo-trial
 Icon: https://cdn.chariz.cloud/icon/aemulo-trial/icon@3x.png
 Name: Aemulo (Trial)
 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.18
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.18_iphoneos-arm.deb
+Size: 3706724
+MD5sum: a842ea1120891c11710c6b22012d1e1e
+SHA1: 36fc296d0d732fcd9e6704e9dd3ed67f9ff4a474
+SHA256: fe4bfe88eb41a8d8ff7403099787752eafdcc9b1fd1d1c087e28900d497f0dec
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: AppStore++
+
 Package: com.ichitaso.otadisabler
 Version: 0.2
 Architecture: iphoneos-arm
@@ -301,6 +337,21 @@ Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
 Name: Filza File Manager 64-bit
+
+Package: com.zyl0462.addons
+Version: 2022.06.30
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.zyl0462.addons_2022.06.30_iphoneos-arm.deb
+Size: 120084
+MD5sum: eb3d91292bc1dd245f9e22573cadb49a
+SHA1: 530af3861a454870d4fad053182d10bdb85f2570
+SHA256: 9d9b538fe21aab632668c858eb7e40ee21e98916c0402680f02e2ad0a059852d
+Section: Addons
+Description: My own ccsupport addons
+Author: zyl0462
+Name: Addons
 
 Package: com.zyl0462.appdata
 Version: 2022.06.14
@@ -760,11 +811,11 @@ Version: 7.9.1
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi
 Depends: firmware (>= 4.0), findutils, apt | apt7
-Filename: ./debs/icleanerpro.deb
-Size: 2430982
-MD5sum: ca9697ccab8224b63e6d2388d60516ea
-SHA1: 2ee09e95cef85a9a3589282f2e079ca82e959b9e
-SHA256: 34f7f0f9fa65cd47db26cdef17e799428098287f3987567d13c8ee1cf741db79
+Filename: ./debs/icleanerpro_7.9.1.deb
+Size: 2928380
+MD5sum: fb9fcbedc7a647c86a038a6c8fbeba6b
+SHA1: de4bf4bed964c0ddad556434553688f4154bee14
+SHA256: ee4db2e8204103e143f021940bf96b78461425732b47cc7230f48a6a150dc6f0
 Section: tweak
 Description: iCleaner Pro crack iOS9-14
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
@@ -2370,25 +2421,6 @@ SHA256: 370b9960c1c380394669a43893a51e86d8ad0d8442e9d91a05f033d8c9a84fb3
 Section: Administration
 Priority: required
 Description: temporarily assume root priviledges
-
-Package: swift
-Version: 5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Depends: swift-5.4.1
-Conflicts: com.kabiroberai.swift-toolchain
-Replaces: com.kabiroberai.swift-toolchain
-Filename: ./debs/swift.deb
-Size: 894
-MD5sum: 387764679013d0390893264acaaf6d74
-SHA1: 8c9e4037ea0e34b9e7e1e7d79ca2f784a59639ea
-SHA256: 5c424c8e3d890fe32c761b04c4b6b5419cb491eebf77b1cfe8c9e1dfccbf0082
-Section: Development
-Priority: optional
-Homepage: https://swift.org/
-Description: Swift developer package
-Tag: purpose::console, role::developer
 
 Package: system-cmds
 Version: 854.40.2-14
