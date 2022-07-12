@@ -1,0 +1,408 @@
+Package: anondev.localiapstore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: anondev
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: ./debs/anondev.localiapstore.deb
+Size: 44822
+MD5sum: 6b3e6ac5cae378c6661ff70a6ec1cf0e
+SHA1: 285c90f9947c387c5ecacdae5ec15d769ef43b22
+SHA256: 1ded2c1edd53800dfa98b709c999e1a84b920449a257e5973438dc0b44ee6073
+Section: Tweaks
+Description: Pwns In-app purchases on iOS 5.1.1 - 14.8.1
+Author: anondev
+Name: LocalIAPStore
+
+Package: com.amywhile.aemulotrial
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 1684
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.1)
+Filename: ./debs/com.amywhile.aemulotrial.deb
+Size: 444432
+MD5sum: e16a77a06a1461e22aa8f3fba0365178
+SHA1: 9a6ffc6c0a277d1afb4d18fe1d4a1db0733751c7
+SHA256: 19a8d1844fe7a96f9c596680e3d11a6aa7d324e08c6df2f13615fafb80ecebc7
+Section: Tweaks
+Description: NFC Frickery
+Tag: compatible_min::ios13.0
+Author: Amy While <support@anamy.gay>
+Depiction: https://chariz.com/get/aemulo-trial
+Icon: https://cdn.chariz.cloud/icon/aemulo-trial/icon@3x.png
+Name: Aemulo (Trial)
+
+Package: com.ichitaso.otadisabler
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 200
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Filename: ./debs/com.ichitaso.otadisabler.deb
+Size: 8494
+MD5sum: e2237862def5c277b44f3687fc769bfc
+SHA1: 8c9adb35f8781572b0b2d68f4943c1a4bbe15400
+SHA256: 48f29fdb18e41767faa86835e1a1a32f770ce024a1d554ed07980e7e636bc238
+Section: System
+Description: Delete and disable OTA badge
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+Name: OTADisabler
+
+Package: com.justinpet26.iap26
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: JustinPet26
+Depends: mobilesubstrate
+Filename: ./debs/com.justinpet26.iap26.deb
+Size: 10836
+MD5sum: 38536e66b9ad15e630f052e8eee37f49
+SHA1: fb6c86dcd27b35638a2010df3606203b9604596c
+SHA256: 41dae752faed4d40f2a805a74041e11f1a3a0b34c3ef22d0699cf7aedcf57e71
+Section: tweak
+Description: IAP cracker for arm64e devices!
+Author: JustinPet26
+Name: iAP26
+
+Package: com.len.unjail
+Version: 2020.06.30
+Architecture: iphoneos-arm
+Maintainer: Len
+Depends: mobilesubstrate
+Filename: ./debs/com.len.unjail.deb
+Size: 18718
+MD5sum: 0d15d7b4691abb87bd676c10ebd424fb
+SHA1: 97e7caf40729e07be86da42f61c74c9cd002fe50
+SHA256: a1394be579278d3940fd6c8010aa0e2816449f6f9f687ab85db4b208f8194467
+Section: Tweaks
+Description: Bypass jailbreak detection
+Author: Len
+Name: Unjail
+
+Package: com.opa334.ccsupport
+Version: 2022.06.14
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.opa334.ccsupport.deb
+Size: 27828
+MD5sum: 634a56ab5038fdd2736e3aeef65a7a2e
+SHA1: 488dbec07b7ee7979d767ce5578af1e673a6aa37
+SHA256: 6dfe40db4734495c672a944d7be43f4af39800188d4c91a2aa44fbc068746d9f
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.tigisoftware.filza64bit
+Version: 3.9.0-2
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 21860
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit.deb
+Size: 7361484
+MD5sum: 00cadb6d76b83682e8e1503b309b7380
+SHA1: d10c2c569533f6ab5bdd9f259e189f173b69ab08
+SHA256: 6c5086ee36fefcd148b1132db319e1d0a3d40122562731883ffbac56b3b55792
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.zyl0462.appdata
+Version: 2022.06.14
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 280
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.zyl0462.appdata.deb
+Size: 68184
+MD5sum: 271874476dfa3d21fef5029e12cb49d1
+SHA1: 6c0b7e03c35d798c5c5b51f15cf3083ec63a6578
+SHA256: 660bf7974068a7aa4a2209d73b385c99fa901b6ee42d63d9d86d1e4b84cbe5d6
+Section: Tweaks
+Description: Appdata tweak!
+Author: zyl0462
+Name: AppData
+
+Package: com.zyl0462.apptweaks
+Version: 2022.06.30
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.zyl0462.apptweaks.deb
+Size: 7762
+MD5sum: 58000850a7b16a6a16d68bdb67d589e9
+SHA1: c69b6c0c2a8235b8462f0b686f00a43d03ccf240
+SHA256: f6e5d722075cd97031daded895d21bbe77ff1b5fd4a9e6b1667fce03755abffc
+Section: Tweaks
+Description: My own app tweaks!
+Author: zyl0462
+Name: APPTweaks
+
+Package: com.zyl0462.backuptweaks
+Version: 2022.06.14
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 232
+Depends: mobilesubstrate, rsync, coreutils, tar
+Filename: ./debs/com.zyl0462.backuptweaks.deb
+Size: 33914
+MD5sum: f7aa321a8d1bbbbee18e925867f591e7
+SHA1: 48ee707d5b24ed30b68cd069c588277464d6f75a
+SHA256: 2826df5ba469d223f3071522316010b628f127c30f2fd4ab3e0d5e46a38749a5
+Section: Tweaks
+Description: Easily backup and restore your tweaks!
+Author: zyl0462
+Name: BackUpTweaks
+
+Package: com.zyl0462.iap64e
+Version: 2020.06.30
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/com.zyl0462.iap64e.deb
+Size: 28802
+MD5sum: d34b98a7edf13f26fce2153a356e04ba
+SHA1: 417abad2262317046bc0bc41d63befcd21c79428
+SHA256: 466fee09ac24dc809ed79cb565e1f3e7b34628e9005772bd33191f2bcf3d5867
+Section: Tweaks
+Description: IAP cracker for arm64e devices!
+Author: zyl0462
+Name: iAP64e
+
+Package: com.zyl0462.kbtweaks
+Version: 2022.06.30
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 92
+Depends: mobilesubstrate
+Filename: ./debs/com.zyl0462.kbtweaks.deb
+Size: 9790
+MD5sum: 16b8cded86101eab3ff6659878d086e6
+SHA1: bd9263489fd74fd1a678a50e5dd1d7012c88e1e0
+SHA256: 1906a24e76952b76304eb5b842ad28ec7b0accf843fbffae0f58824903629be4
+Section: Tweaks
+Description: KBDock tweaks.
+Author: zyl0462
+Name: KBTweaks
+
+Package: com.zyl0462.systweaks
+Version: 2022.06.30
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/com.zyl0462.systweaks.deb
+Size: 6034
+MD5sum: a35d499a1e0c1095754bc3203204713c
+SHA1: 53374aadf9c73bed4f2446e2977545311f6635a1
+SHA256: 56f800059da389bf931f2f7739ad3bbb3c4bbaea089657d7295bc57b7ce4da00
+Section: Tweaks
+Description: My own system tweaks!
+Author: zyl0462
+Name: SYSTweaks
+
+Package: com.zyl0462.xlocation
+Version: 2020.06.14
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 112
+Filename: ./debs/com.zyl0462.xlocation.deb
+Size: 15900
+MD5sum: c6260fd141ed340fb4c4bb6c5c85c443
+SHA1: d3f13e5b42f6f6dc9e62d9db4d2f13e5e426d3aa
+SHA256: e766ca26f2140f0284f3ae3ccb554d7c173b0a49e1b4eca112a5bd7e18eb3b08
+Section: System
+Description: Simulate your location, Coordinates can be configured in Terminal.
+Tag: role::hacker
+Author: zyl0462
+Name: xloc
+
+Package: icleanerpro
+Version: 7.9.1
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Filename: ./debs/icleanerpro.deb
+Size: 2431818
+MD5sum: f43d72be15a4b92bce1c45f2623701a8
+SHA1: ceaff7fe19ab7335326b1f36100044ac9442a647
+SHA256: 807640ce0a4615a3d8db5ced98160e8d87990021bbe97b444ae1f95ff16102d9
+Section: tweak
+Description: iCleaner Pro crack iOS9-14
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: iCleaner Pro
+
+Package: net.angelxwind.appsyncunified
+Version: 2022.06.14
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 268
+Depends: firmware (>= 14.0), mobilesubstrate
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified.deb
+Size: 12018
+MD5sum: d78cec9e86d2b9ad3a386bf419994d6c
+SHA1: e93a2f98a3451bfb680887215501ce0f61737c4f
+SHA256: 9306f3b0ae8a10bf1ff2c9e417a39f9f91031e4958853a499490e1373a233242
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: netskao.bilibilipure
+Version: 1.2-4
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 584
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/netskao.bilibilipure.deb
+Size: 174598
+MD5sum: e33a60dc1d365b97abcd82f046dcca4c
+SHA1: 9f553467f29d6a7bf9e174631748add860ac49d3
+SHA256: 16fddf72516901a5b3104619a108ce7cb34df63528848c56c28607b169b83b66
+Section: Netskao-Tweaks
+Description: 哔哩哔哩净化，详情净化查看预览图，设置位于哔哩哔哩-设置页面顶部，仅支持6.68.0及以上版本(此插件不支持iPad设备)
+Author: Netskao
+Name: 哔哩哔哩净化
+
+Package: netskao.classdump
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1828
+Filename: ./debs/netskao.classdump.deb
+Size: 671022
+MD5sum: 467144eb65716ea64898a130249f28cd
+SHA1: 3f24f3be547b4ddbb9a8540e53889b27750c50c5
+SHA256: 0c9e1bfceb895baeabf6bd1e2d3be78ff72ef20f17c1673c7653de306b432980
+Section: Netskao-Tweaks
+Homepage: https://github.com/nygard/class-dump
+Description: class-dump is a command-line utility for examining the Objective-C segment of Mach-O files. Support iOS
+Author: Steve Nygard
+Name: class-dump
+
+Package: netskao.clearallmessages
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/netskao.clearallmessages.deb
+Size: 11598
+MD5sum: dfd98c087a0a05f3de0e6b419ec2c871
+SHA1: b4c8eaea46976203cea806ad114bbadb25a8fd1a
+SHA256: 3cc9b5bdd6ad0d65a717a09bf131a19396c0a92965245aae4b3dc4fc65292034
+Section: Netskao-Tweaks
+Description: 在短信列表编辑模式下给短信添加一键清空所有信息，详细查看预览截图
+Author: Netskao
+Name: ClearAllMessages
+
+Package: netskao.dumpdecrypter
+Version: 1.3-5.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 2992
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netskao.dumpdecrypter.deb
+Size: 1115270
+MD5sum: 35da53520fe354f4be5c637efa8071f7
+SHA1: 3334725c8e9e5a4f026acce747065372bdbb206c
+SHA256: 8c861ebe828875494b4f234b6059c39aa41c54d760c54d5c90f4a1ddeec9a482
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps
+Author: Netskao
+Name: DumpDecrypter
+
+Package: netskao.filzacrack
+Version: 1.1-7
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 172
+Depends: mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs/netskao.filzacrack.deb
+Size: 27412
+MD5sum: a969159b2351b6051c5ade9a8baebf29
+SHA1: ddea8862aeb5b6bd591e2526a76c88d39f61d913
+SHA256: e4dfde2f9630bdd3a50db791d3f0817337608df144a57bea9b8c251fbd7535b4
+Section: Netskao-Cracks
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza解锁全功能无限制，主程序官方源安装即可
+Author: Netskao
+Name: Filza Crack
+
+Package: netskao.flexlist
+Version: 1.3-4.3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 10356
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: ./debs/netskao.flexlist.deb
+Size: 2803772
+MD5sum: 8651577218e18d97c3d20ad5f74aecad
+SHA1: 1bc4a947774cda1de287f497c9c8c6ba82bd25f4
+SHA256: 5e6df8661bb137be39bc0b793670237a58a43758685bc9d835244824e02b6e73
+Section: Netskao-Tweaks
+Description: FLEXList is a wrapper tool for FLEX Tool
+Author: Netskao
+Name: FLEXList
+
+Package: netskao.redditnoads
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 272
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/netskao.redditnoads.deb
+Size: 80932
+MD5sum: 0a1e9d150279d21aaab0294e44d32d02
+SHA1: ca91b1c6615f9769bfb8fc11b57129b7ebeae669
+SHA256: 9d2690bbf2a28b51f6705173974ca9acbf724294d7463ec781a36e0b5183e44c
+Section: Netskao-NoAds
+Description: Reddit removes all AdPost and all RecommendedPost, Only version 2022.22.0 and above are supported
+Author: Netskao
+Name: Reddit NoAds
+
+Package: preferenceloader
+Version: 2022.06.14
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <dustin@howett.net>
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader.deb
+Size: 23498
+MD5sum: 72bb3b8e33f97cb13e5e8083ef608a26
+SHA1: 26f239b7f4facd036c03400e582f3d3d63ac4430
+SHA256: a61cd69735562e751bb25991de22912336073674b02c513fdae81e4093de3183
+Section: Tweaks
+Description: A lightweight and modern alternative to PreferenceLoader.
+Author: Dustin Howett <dustin@howett.net>
+Name: PreferenceLoader
+
+Package: ws.hbang.runtimebrowser
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 5072
+Filename: ./debs/ws.hbang.runtimebrowser.deb
+Size: 1567514
+MD5sum: 4e3a3f329196b3c0f4ca38b378495c97
+SHA1: 550f70f2b7ed1f943f7315d5ca6489ed6212126d
+SHA256: 290999bc62eed5c058ba633556ae172b1a93b00eff53a41b09ae4608010843dd
+Section: Utilities
+Description: Class browser for Objective-C runtime
+Tag: role::hacker, compatible_min::ios8.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/runtimebrowser
+Icon: https://chariz.com/cdn/icon/runtimebrowser/icon@3x.png
+Name: RuntimeBrowser
+
