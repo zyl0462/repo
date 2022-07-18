@@ -1,173 +1,17 @@
-Package: Flex3beta
-Version: 1:3~Beta98
-Architecture: iphoneos-arm
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3_3~Beta98.deb
-Size: 14346600
-MD5sum: 693c569e78f37e6d0e9c2e63287bc97e
-SHA1: c6b44a4c7ef73f7b68240775ee58f7591c14d2e4
-SHA256: 2b71e64db3e4b352ef73d54e76e0808bb122c614d97160bf5338b903d2d8f6a4
-Section: Tweaks
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-Author: John Coates
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
 Package: anondev.localiapstore
 Version: 1.4-1
 Architecture: iphoneos-arm
 Maintainer: anondev
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Filename: ./debs/anondev.localiapstore.deb
-Size: 44804
-MD5sum: f37f68b0b259cbbdd174bdf0ce530be2
-SHA1: f53724180f95822c59957e47ad4c36d79caf96f2
-SHA256: c464ed2e45e3987b40d7fc77618d8665d8066ca691031b81d5bc50aaf27b8bd2
+Filename: ./repo/debs/anondev.localiapstore.deb
+Size: 44778
+MD5sum: d1bf43032928f67c8d0803af0850c89f
+SHA1: 2a0d41fcae9f62ecb6dd290a94cca0ce11cc8e25
+SHA256: 4cc1e0063515e85d3240a586ef5264f7b3919493bdb674ad5e84d18cf610e701
 Section: Tweaks
 Description: Pwns In-app purchases on iOS 5.1.1 - 14.8.1
 Author: anondev
 Name: LocalIAPStore
-
-Package: apt
-Version: 2.5.0
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 3768
-Pre-Depends: dpkg (>= 1.14.25-8), system-cmds (>= 854.40.2-2)
-Depends: libapt-pkg6.0 (= 2.5.0), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils, procursus-keyring
-Conflicts: apt7 (<< 1:0), apt1.4 (<< 1:0), apt1.8, libapt-pkg5.0 (<< 1:0), libapt (<< 1:0), apt-key (<< 1:0)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (= 1:0), apt-key (= 1:0)
-Filename: ./debs/apt.deb
-Size: 682866
-MD5sum: 8d22bc98cb87707dd4ab9a61e0b06ed0
-SHA1: 1eddb2a14f8760ae0bfecfac9e55092ce94f448c
-SHA256: 360803942b6e758930a3aa4e41f4db1c9094bbe384d324400af0c3af79efe499
-Section: Packaging
-Priority: required
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: base
-Version: 1-5
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Filename: ./debs/base.deb
-Size: 1018
-MD5sum: a069a28ac6034457210e8f1a1a36913c
-SHA1: 0b94dd39033890855d272dd81fb100143d4a567c
-SHA256: 019563a134495dedca5633c17f7ec088649bc5c2fbd63cbfd7eae0ef32f695a7
-Section: System
-Priority: required
-Description: underlying system directory structure
-Tag: purpose::backend, role::hacker
-Name: Base Structure
-
-Package: bash
-Version: 5.1.16
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 3616
-Pre-Depends: dash (>= 0.5.11.3-1), libreadline8 (>= 8.0), profile.d (>= 0-5), debianutils (>= 4.11.2)
-Depends: grep, libiosexec1, libncursesw6, libreadline8, sed, debianutils (>= 4.11.2)
-Filename: ./debs/bash.deb
-Size: 563138
-MD5sum: 86e7ef840dc0b7a18f4a9af126eea5aa
-SHA1: dc572a2220cac898d33e08cf3277c4d214671ecf
-SHA256: 38c184755d3febea9ca0eeb275112d864b9306071f3118cf23b4de90a77a249c
-Section: Terminal_Support
-Priority: optional
-Homepage: http://www.gnu.org/software/bash/
-Description: the best shell ever written by Brian Fox
-
-Package: build-essential
-Version: 14.5
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 122208
-Filename: ./debs/build-essential.deb
-Size: 8354114
-MD5sum: baa10eaae9775922822db94c3743cd55
-SHA1: 3ff9ab77d9c30aa572450ea8a2a533f1771ca2aa
-SHA256: a96257f427c99c8913809f8da7a00f6d308e75abc0d2b211a4e851eb4a96225c
-Section: Development
-Priority: optional
-Description: Contains an SDK for your platform.
-
-Package: ca-certificates
-Version: 20210609
-Architecture: all
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 204
-Filename: ./debs/ca-certificates.deb
-Size: 110718
-MD5sum: a9ecfec38fc0f08ee3262434658157b9
-SHA1: db53eeb12574bb939d785bce01ca621d68a70833
-SHA256: ce6c1af512edcb483095b8fb052af8bfc6e67559e9d28257d07a863a21dc7422
-Section: Utilities
-Priority: optional
-Multi-Arch: foreign
-Description: CA certs for curl, wget, git.
-Name: CA Certificates
-
-Package: chariz-keyring
-Version: 2021.07.18
-Architecture: all
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 4
-Conflicts: procursus-keyring (<< 2020.05.09-1)
-Replaces: procursus-keyring (<< 2020.05.09-1)
-Filename: ./debs/chariz-keyring.deb
-Size: 7964
-MD5sum: eac3cb1a5789f219c369fca8e837a30e
-SHA1: a91b49247651f727336285e3082636b81bbe19f3
-SHA256: 495a63f0ee715c8a1a131914090167b3ab938c44d3bb0bbad1ae11fa770ab3a4
-Section: Keyrings
-Priority: optional
-Description: GnuPG keys for the Chariz repository
-Name: Chariz APT Keyring
-
-Package: clang
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Depends: clang-11, libc++-dev
-Provides: c++-compiler, c-compiler, objc-compiler
-Filename: ./debs/clang.deb
-Size: 784
-MD5sum: 5d8eccc4a9c42edcf1b9cba1ce84c1d8
-SHA1: 192351c3ada1308da010a55e6225f873e504d8a6
-SHA256: 307d88c2acb1cbbf9adfb757aa032152ab3cec3a65db0e20e3337f7ea9b2d47a
-Section: Development
-Priority: optional
-Homepage: https://www.llvm.org/
-Description: C, C++ and Objective-C compiler
-Tag: purpose::console, role::developer
-
-Package: clang-11
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 276
-Depends: libllvm11, libclang-cpp11, ld64, libclang-common-11-dev, build-essential
-Filename: ./debs/clang-11.deb
-Size: 56314
-MD5sum: bd52d7f891eb211a4a1639f9bf1606ad
-SHA1: f87ce27a25dd23dca1281277827ad2ecf42cfdac
-SHA256: 8a5b08f7d03d3e783bb3f793507144f2aba37270ca573f1868eb9532f2ac7e4d
-Section: Development
-Priority: optional
-Homepage: https://www.llvm.org/
-Description: C, C++ and Objective-C compiler
-Tag: purpose::console, role::developer
 
 Package: com.amywhile.aemulotrial
 Version: 1.1.2
@@ -175,11 +19,11 @@ Architecture: iphoneos-arm
 Maintainer: Amy While <support@anamy.gay>
 Installed-Size: 1684
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.1)
-Filename: ./debs/com.amywhile.aemulotrial.deb
-Size: 444404
-MD5sum: e78811b9d419e9b934e34fcc19b051a3
-SHA1: 5db99c0d346d5d7fa18f6265b4a07f409387788d
-SHA256: ac5d7fff063cd48df34871fde9fa843267a1d50ad49eb3a7a579cf9e58c8e6ee
+Filename: ./repo/debs/com.amywhile.aemulotrial.deb
+Size: 444426
+MD5sum: ee43874fc5e94a89b64b7aeed11d3ef3
+SHA1: dbea82a9149c42e8000ad90a0e8ad3d3381e62e1
+SHA256: 8a54b3be58b7944121dbc5379440b1f58a76e0c93c62f801626a9d8a9cdd65f2
 Section: Tweaks
 Description: NFC Frickery
 Tag: compatible_min::ios13.0
@@ -188,35 +32,17 @@ Depiction: https://chariz.com/get/aemulo-trial
 Icon: https://cdn.chariz.cloud/icon/aemulo-trial/icon@3x.png
 Name: Aemulo (Trial)
 
-Package: com.cokepokes.appstoreplusplus
-Version: 0.9.18
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.18_iphoneos-arm.deb
-Size: 3706724
-MD5sum: a842ea1120891c11710c6b22012d1e1e
-SHA1: 36fc296d0d732fcd9e6704e9dd3ed67f9ff4a474
-SHA256: fe4bfe88eb41a8d8ff7403099787752eafdcc9b1fd1d1c087e28900d497f0dec
-Section: Tweaks
-Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
-Author: CokePokes
-Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Name: AppStore++
-
 Package: com.ichitaso.otadisabler
 Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: ichitaso
 Installed-Size: 200
 Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
-Filename: ./debs/com.ichitaso.otadisabler.deb
-Size: 8456
-MD5sum: da7bc2b4b8b9c39a89544e78a3ca810e
-SHA1: ef29966b224593652d1b9313868d07bb15d19fcd
-SHA256: 8c41c4c0da70e2d65126fa64b01e75085985c1c51d9cb04bf039df9bdd3e56b7
+Filename: ./repo/debs/com.ichitaso.otadisabler.deb
+Size: 8472
+MD5sum: 6ec73053441bc4669bc09c28ce4b4103
+SHA1: b88c5cfaa2937dd2e36a4d9667872776fd6a2394
+SHA256: a32e792960f74ae85cd2001a1a88459426f4942c555b5c0e4dc9931abe38959c
 Section: System
 Description: Delete and disable OTA badge
 Author: ichitaso
@@ -228,11 +54,11 @@ Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: JustinPet26
 Depends: mobilesubstrate
-Filename: ./debs/com.justinpet26.iap26.deb
-Size: 10806
-MD5sum: 193675cc4b3bdf981ce8f120f17f20be
-SHA1: 2daa56e273053c802b46468de689770e93ac756a
-SHA256: d7ec2c4f30930e73fc22e93e2dddea446e2f4cbe5f1d2fbe0d3b99cb897aefcd
+Filename: ./repo/debs/com.justinpet26.iap26.deb
+Size: 10818
+MD5sum: 363c0345e6eafdaf7cce3403b642b3c7
+SHA1: 3005c7af9dce82cba068914a13dcda1cf2af5f56
+SHA256: c8cf00250985d9253e4ad0c54254cbb4a943ee28be5d208827b8d025e6d1ba4d
 Section: tweak
 Description: IAP cracker for arm64e devices!
 Author: JustinPet26
@@ -243,11 +69,11 @@ Version: 2020.06.30
 Architecture: iphoneos-arm
 Maintainer: Len
 Depends: mobilesubstrate
-Filename: ./debs/com.len.unjail.deb
-Size: 18754
-MD5sum: b88862c8cde542e469c7bc91f78fac40
-SHA1: d6b810902951c0ceced36415abd3def8a61ba8be
-SHA256: fa06864d8be8b5c09c2f0ce4d54d83c686a46e529b8f8fdc30bfce1125e4be56
+Filename: ./repo/debs/com.len.unjail.deb
+Size: 18718
+MD5sum: c5fafd3f30ab9e27607868e5607fb264
+SHA1: a93cfda0febdcc64bf610fc1967be0d9f7a2ce27
+SHA256: 3c706fadf859ac4cce9897cbffa2469289a6e3d02b2fcf9cc97b02bdc534da66
 Section: Tweaks
 Description: Bypass jailbreak detection
 Author: Len
@@ -259,11 +85,11 @@ Architecture: iphoneos-arm
 Maintainer: opa334
 Installed-Size: 172
 Depends: mobilesubstrate
-Filename: ./debs/com.opa334.ccsupport.deb
-Size: 27824
-MD5sum: 6175cabac979a7537ad0ac4dd128ae2b
-SHA1: 2df6f8697a5cdd2a5d6ea55c46e19c5faba94360
-SHA256: 26d275a1a75e058c1894a90c0eee191142c915070d6058b90205984b5e821697
+Filename: ./repo/debs/com.opa334.ccsupport.deb
+Size: 27822
+MD5sum: 1067c9921076d222dc20dc5c61e077d2
+SHA1: f48f79774c524405491d3b876455cf692b569b1b
+SHA256: 29256ad5bfe4efdf7e4f7289412a42d168e4e9d6eece7268297593b4463d922b
 Section: Tweaks
 Description: Support tweak for CC modules!
 Author: opa334
@@ -276,11 +102,11 @@ Architecture: iphoneos-arm
 Maintainer: pxcex
 Installed-Size: 384
 Depends: mobilesubstrate
-Filename: ./debs/com.pxcex.starvpnhack.deb
-Size: 79582
-MD5sum: e3bd8ef0725ca644e718f8cee0208eab
-SHA1: e48d5d5368d19ef71ecb9b9a8c185874d0707e6a
-SHA256: 613af178a2391d25f31587238aad33395731dfac708b6d9b0d75f299096a2854
+Filename: ./repo/debs/com.pxcex.starvpnhack.deb
+Size: 79572
+MD5sum: 88435ec6513868b435e0985267f1a4ad
+SHA1: 50f32b4f9f04c36c3e3c66d7d6c5898f7e98196e
+SHA256: e4facb351462dc94af4dde3347b08fedb2f9fa5a779af3b8252948f317f29184
 Section: Tweaks
 Description: Star VPN: Unlimited WiFi Proxy Premium!
 Author: pxcex
@@ -292,11 +118,11 @@ Architecture: iphoneos-arm
 Maintainer: pxcex
 Installed-Size: 288
 Depends: mobilesubstrate
-Filename: ./debs/com.pxcexbetternethack.deb
-Size: 68642
-MD5sum: ea029f1fc511565c56513bdd2aa28ae2
-SHA1: 9af5e425b683e0ce8e977bc3bce461860092b346
-SHA256: 5ce56fa501a2d6f2a628e28d4e641a71317f4838291c0d4b630e363833dc8d08
+Filename: ./repo/debs/com.pxcexbetternethack.deb
+Size: 68636
+MD5sum: c8b57516212e8966dae6dcc0d45fada9
+SHA1: 44f9f8dab2049149a89f345f13c6cf17a3460444
+SHA256: eabaf1b3c5ddc952ed4b5f35951b76ce6bd4195dd12dee0814b97d55d39ad3d6
 Section: Tweaks
 Description: Best vpn proxy Betternet Premium For Free
 Author: pxcex
@@ -308,11 +134,11 @@ Architecture: iphoneos-arm
 Maintainer: Riley Testut <support@altstore.io>
 Installed-Size: 2560
 Depends: firmware (>= 12.2)
-Filename: ./debs/com.rileytestut.altdaemon.deb
-Size: 681308
-MD5sum: 5badcaf8a090630f5c2a156c47384a5b
-SHA1: 1f5eefd668110561c80f840ec854cc0b34341482
-SHA256: 062e95add30a1445221366d5a36dadc76f7206bb028c62edf455108c271b9c5c
+Filename: ./repo/debs/com.rileytestut.altdaemon.deb
+Size: 681318
+MD5sum: 3c73e16807c85b2ef7e2b38fda4bdd78
+SHA1: 1b0ed9abed91b7b8306e48595b969a4b5bad2da4
+SHA256: a7db3aa71d984e1010a0410ea911cd5a4fd6a946467eb7a1f9afb3babec04b7c
 Section: System
 Description: AltDaemon allows AltStore to install and refresh apps without a computer.
 Tag: compatible_min::ios12.2
@@ -328,11 +154,11 @@ Maintainer: TIGI Software
 Installed-Size: 21860
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit.deb
-Size: 7361336
-MD5sum: 1cfe44d6bc276ddf44988ab8212a9d84
-SHA1: 324b1f57a4cd6a104fca21980a36d5ecc99e8205
-SHA256: 343ad2ccabf672b49ec6611347ecc07c138cf970f92c4cb78a18b0d2d46f9fd2
+Filename: ./repo/debs/com.tigisoftware.filza64bit.deb
+Size: 7361370
+MD5sum: 86f1b11c7ffc908f4fb16ccc02881c2a
+SHA1: 5cfc39cde1337c1fd2f06938f6399f8cf1c6fb16
+SHA256: bbf77572c7378d81a58396ff10f93f5c377d29c2234c2198b63019312c70a624
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
@@ -343,11 +169,11 @@ Version: 2022.06.30
 Architecture: iphoneos-arm
 Maintainer: zyl0462
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/com.zyl0462.addons_2022.06.30_iphoneos-arm.deb
-Size: 120084
-MD5sum: eb3d91292bc1dd245f9e22573cadb49a
-SHA1: 530af3861a454870d4fad053182d10bdb85f2570
-SHA256: 9d9b538fe21aab632668c858eb7e40ee21e98916c0402680f02e2ad0a059852d
+Filename: ./repo/debs/com.zyl0462.addons.deb
+Size: 120102
+MD5sum: c13fd65f47f855b21a3ef1a76bf75a60
+SHA1: d2105a960de5002473d39028abdf3473494b2d87
+SHA256: 91a826ad8865d78341d7610923f9733124cce5db217a42a6e4577a6284e4b95a
 Section: Addons
 Description: My own ccsupport addons
 Author: zyl0462
@@ -359,11 +185,11 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 280
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.zyl0462.appdata.deb
-Size: 68166
-MD5sum: 2477a3c716aed3a97299f44a59112cb1
-SHA1: d6f6eea1c1c2dc1a4935ab43764bc7dd8363f033
-SHA256: 3dd9219cee293150977b6a50ae54a5f91bded8bfa077034638b38758accfe736
+Filename: ./repo/debs/com.zyl0462.appdata.deb
+Size: 68174
+MD5sum: cb58d0f790b3a8fdaa7c0ef17a56197b
+SHA1: d29f9f00044957c894a3d35f61bfee403d873c53
+SHA256: 24264e261b2f9cc3c60588071ff5f55e81b9cf97523a23681d9c40ab16d546b1
 Section: Tweaks
 Description: Appdata tweak!
 Author: zyl0462
@@ -375,11 +201,11 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.zyl0462.apptweaks.deb
-Size: 7756
-MD5sum: 6cedde95b97022f129e2f452a8f7e61c
-SHA1: c23e2e57a562d754c5ace1a5e524d47f06db33f9
-SHA256: f3ef5c16bd14888de52f4ffcac59939b73447b8cd852ec400aada8b345499389
+Filename: ./repo/debs/com.zyl0462.apptweaks.deb
+Size: 7752
+MD5sum: fbd25198d31cf61005c84b8a0ed7021f
+SHA1: a1f8da56182b01fdc04e9c663c9afea5080892ec
+SHA256: d61f0f930a3aa59505a57dd67d91d28f27375c0b97d24b7833ffded91b3a3bc6
 Section: Tweaks
 Description: My own app tweaks!
 Author: zyl0462
@@ -391,11 +217,11 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 232
 Depends: mobilesubstrate, rsync, coreutils, tar
-Filename: ./debs/com.zyl0462.backuptweaks.deb
-Size: 33884
-MD5sum: 2b8cf2d5733cbc251e16fc1ea867a80c
-SHA1: 13cc0b8eca2efa3b02355483e71d8757c5cf1ee4
-SHA256: bf7edbd800ef779bdbb30c5ad4c64b5ae06560b2424a1f299974d07100ee52fb
+Filename: ./repo/debs/com.zyl0462.backuptweaks.deb
+Size: 33888
+MD5sum: b83f4cc9acfe181a4c72ccd5bdc38f9f
+SHA1: f5088268417cea7298332517ca48393879a7dc8f
+SHA256: 3bc2a9360a0790f4db031ea975fda3722f65c74a1dac7f2b6ad25f887ee02c07
 Section: Tweaks
 Description: Easily backup and restore your tweaks!
 Author: zyl0462
@@ -407,11 +233,11 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 216
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: ./debs/com.zyl0462.iap64e.deb
-Size: 28802
-MD5sum: a4d06a62103059907c427f1bd34d816c
-SHA1: b6f7f26bdd4c69853f3bbfc1065c78ccbab7188b
-SHA256: fd994133a9d32e33895600ab49b4c94877e637f5144bae6774c72fbf6fa4f811
+Filename: ./repo/debs/com.zyl0462.iap64e.deb
+Size: 28800
+MD5sum: 50b3184006a93eea8dfc47baaea1ca85
+SHA1: ea209af86c576f4c8efd94fea1c9e963068486ab
+SHA256: ae3968b5704bb4a8e95deccbed6af44e174997afd6b6cae4020318f5ebc9b194
 Section: Tweaks
 Description: IAP cracker for arm64e devices!
 Author: zyl0462
@@ -423,11 +249,11 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 92
 Depends: mobilesubstrate
-Filename: ./debs/com.zyl0462.kbtweaks.deb
-Size: 9790
-MD5sum: 121111f0a5b609ec9633f42671f9ca5a
-SHA1: d5a02b980baad6dbe5169b2810f32e6fbed2f04e
-SHA256: 00dd309dd71a2be0d3a2874fbdfb5548ecf14f8de481f4d5568fc115a3e849b9
+Filename: ./repo/debs/com.zyl0462.kbtweaks.deb
+Size: 9804
+MD5sum: 7d76652e2e5b76f9d94631ce1d384a14
+SHA1: 20bf96df93f917a705c3b8023fad0846e0bfa13f
+SHA256: 0f3fa46c1310523c7e0a440e27def616070bb40ac6a3f175a8a7efc4b3ffe7c9
 Section: Tweaks
 Description: KBDock tweaks.
 Author: zyl0462
@@ -439,11 +265,11 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 92
 Depends: mobilesubstrate
-Filename: ./debs/com.zyl0462.surge4x.deb
-Size: 6736
-MD5sum: c0dad1c90c9b4b83bda2983f2224e739
-SHA1: f9fa9bf3b2dec850bbf988711ab2b387c3287cbf
-SHA256: 7c0bdf393c40774aaf04cde50aa4eaf633899b5c5d0acfffd71ee1ff8c7983fc
+Filename: ./repo/debs/com.zyl0462.surge4x.deb
+Size: 6722
+MD5sum: 94e89f54593077dc2cd6d44633c362bd
+SHA1: 30683689e7a891f3a4c6a205f1aa1892fe1c46c9
+SHA256: 438657e311e2b53796e36dd8bfcd580cb85ef2743e9bace72beba3402efa1ee1
 Section: Tweaks
 Description: An surge4x tweak!
 Author: zyl0462
@@ -455,11 +281,11 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./debs/com.zyl0462.systweaks.deb
-Size: 6032
-MD5sum: 6c334b545b5a8f31a45ed21f2c591d6d
-SHA1: af6f2b63a33a09e04b253f0e81a38f2b2c5b05d2
-SHA256: 52a2f2a3fe61f2bdad03e89d1eb8cb836994555c4eec88e2020cd91ff47ba5a5
+Filename: ./repo/debs/com.zyl0462.systweaks.deb
+Size: 6278
+MD5sum: 5c463c992973b630fe07a2d86b9ca6be
+SHA1: a969ec3c5f344d58e0cd10030cf393fecac91efd
+SHA256: b7b0860f2a2abf5a7183b7e8fea931995962acf47c1fec2669fde4d73d401b1c
 Section: Tweaks
 Description: My own system tweaks!
 Author: zyl0462
@@ -470,1477 +296,31 @@ Version: 2020.06.14
 Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 112
-Filename: ./debs/com.zyl0462.xlocation.deb
-Size: 15906
-MD5sum: dc8c98376cdefdabfe9193e7b93bc215
-SHA1: b12a5f17714b7b34cf692db850ec9a6d9663ded8
-SHA256: 3353ce7e370bad86388bec433d299d3881cfa8c41ac1f3c782772a2e8e025cdf
+Filename: ./repo/debs/com.zyl0462.xlocation.deb
+Size: 15912
+MD5sum: 5e821eb434bfe5314eba1678e657575a
+SHA1: 4bb9971277a53ce7905d0999401bebbd028a8142
+SHA256: d89c5a56e0e25ef9ac77cd1a400a65a0739b760356786edc4d9048bcc30befa9
 Section: System
 Description: Simulate your location, Coordinates can be configured in Terminal.
 Tag: role::hacker
 Author: zyl0462
 Name: xloc
 
-Package: coreutils
-Version: 9.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 23980
-Depends: sh, profile.d, libssl3, libintl8 (>= 0.20.0), libgmp10, libcrypt2, libiosexec1
-Conflicts: coreutils-bin (<< 1:0), shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1), system-cmds (<< 854.40.2-3)
-Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1)
-Provides: md5sum, sha1sum, coreutils-bin (= 9.1), dirname, kill, mktemp, su
-Filename: ./debs/coreutils.deb
-Size: 2798788
-MD5sum: bb4b2e25741af29a5dcc40c5444158f6
-SHA1: d975eb35f1b444c98c8e1299b624bfe884b27266
-SHA256: 3d80d75aeb913dd64a632e355e348b77a8c365f6d30f0efc9e24e31249cfcaba
-Section: Utilities
-Priority: standard
-Homepage: http://www.gnu.org/software/coreutils/
-Description: GNU core utilities
- This package contains the basic file, shell and text manipulation
- utilities which are expected to exist on every operating system.
- .
- Specifically, this package includes:
- arch base64 basename cat chcon chgrp chmod chown chroot cksum comm cp
- csplit cut date dd df dir dircolors dirname du echo env expand expr
- factor false flock fmt fold groups head hostid id install join link ln
- logname ls md5sum mkdir mkfifo mknod mktemp mv nice nl nohup nproc numfmt
- od paste pathchk pinky pr printenv printf ptx pwd readlink realpath rm
- rmdir runcon sha*sum seq shred sleep sort split stat stty sum sync tac
- tail tee test timeout touch tr true truncate tsort tty uname unexpand
- uniq unlink users vdir wc who whoami yes
-Conffiles:
- /etc/profile.d/coreutils.sh 10ddfa8817dbc0c5e61735c26b314cf0
-
-Package: curl
-Version: 7.83.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 316
-Depends: libnghttp2-14, libssh2-1, libssl3, libidn2-0, libcurl4 (= 7.83.1), libbrotli1, libzstd1, librtmp1
-Filename: ./debs/curl.deb
-Size: 175988
-MD5sum: 120081956dcc60dc466adfdf0e086ffc
-SHA1: 95d59ad7c94395a1a193877a2ed51c8ed70e9631
-SHA256: f0bc0d3bf613f411485d6a89d259b1c2167e592ec67cc605e61b488a07d4a2e6
-Section: Networking
-Priority: standard
-Homepage: http://curl.haxx.se/
-Description: command line tool for transferring data with URL syntax
- curl is a command line tool for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
- .
- curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file transfer resume, proxy tunneling and a busload of other useful tricks.
-
-Package: darwintools
-Version: 1.5
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 148
-Pre-Depends: libiosexec1
-Depends: grep, coreutils (>= 8.32-12)
-Recommends: uikittools (>= 2.0.0)
-Filename: ./debs/darwintools.deb
-Size: 12334
-MD5sum: 019a8cb6b197b061a4b74176eebd387d
-SHA1: a7f3dd40b4767569d2f6d54837c113315a218075
-SHA256: c0136b24c7b16d6e607850fafe52224b57828451813b39ea18bb24e0567db75e
-Section: Administration
-Priority: required
-Description: Provides sw_vers, /usr/libexec/firmware, and /etc/resolv.conf
-
-Package: dash
-Version: 0.5.11.4
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 188
-Pre-Depends: debianutils (>= 4.11.2)
-Depends: debianutils (>= 4.11.2), libedit0, libiosexec1
-Provides: sh
-Filename: ./debs/dash.deb
-Size: 75164
-MD5sum: 8e59e8339b94170d01b7bddde1c409f4
-SHA1: 9df07644e92dd8a789f778bd7b4cf0e382882672
-SHA256: d3778a95478351ce1fa0672cf7240af7a0ab444b958dc32bab71907a25cf3b31
-Section: Terminal_Support
-Priority: required
-Homepage: http://gondor.apana.org.au/~herbert/dash/
-Description: POSIX-compliant shell
- The Debian Almquist Shell (dash) is a POSIX-compliant shell derived
- from ash.
- .
- Since it executes scripts faster than bash, and has fewer library
- dependencies (making it more robust against software or hardware
- failures), it is used as the default system shell on Debian systems.
-
-Package: debianutils
-Version: 5.5-1
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 32
-Filename: ./debs/debianutils.deb
-Size: 54410
-MD5sum: f1eb7ff5f3f27e3d2c0aa0960f17d682
-SHA1: 55c331d5a477a804fa6f5aae632894dcdd89d01f
-SHA256: f204a5687536127647f4d5065283158f5d7542ffc0b89480b8cae40379e859ef
-Section: Utilities
-Priority: required
-Description: Miscellaneous utilities specific to Debian
- This package provides a number of small utilities which are used
- primarily by the installation scripts of Debian packages, although
- you may use them directly.
- .
- The specific utilities included are:
- add-shell remove-shell run-parts
-
-Package: diffutils
-Version: 3.8
-Architecture: iphoneos-arm
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 1736
-Depends: libintl8
-Filename: ./debs/diffutils.deb
-Size: 324428
-MD5sum: 9eac8800191bdd1bed9eea87a4abe888
-SHA1: efef0baf3f64be0e074c1c2054f90a1e069beea8
-SHA256: 39ea72faa58db6d8aa5438e43604c7038787a0676bfdd983944a599e88ec472b
-Section: Development
-Priority: important
-Multi-Arch: foreign
-Homepage: http://www.gnu.org/software/diffutils/
-Description: compare two files for differences
-
-Package: diskdev-cmds
-Version: 667.40.1
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1132
-Filename: ./debs/diskdev-cmds.deb
-Size: 94476
-MD5sum: e16e733ae80a92c4307624b737fdf154
-SHA1: 277854d3a1e3f27793f8ffc2849c73bb26188846
-SHA256: 22900e07663b6ca21df6f25d96c3b274fc8dfd312615434a23cd793a69b4df09
-Section: System
-Priority: required
-Description: mount, quota, fsck, fstyp, fdisk, tunefs
-Tag: purpose::console, role::sysadmn
-
-Package: dpkg
-Version: 1.21.8
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 5748
-Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
-Depends: sh, coreutils, diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libz-ng2, libzstd1, libmd0, libiosexec1
-Filename: ./debs/dpkg.deb
-Size: 1213996
-MD5sum: f8314ad6f4183adb9ab2471f1717af20
-SHA1: 9946d698a3c4092c48f92abdb02517fb561de428
-SHA256: 3c488466e3709c02e5545de80388a8a30c21fad59c632410a91819c33561c095
-Section: Packaging
-Priority: required
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: package maintainance tools from Debian
-Conffiles:
- /etc/alternatives/README 7be88b21f7e386c8d5a8790c2461c92b
- /etc/dpkg/origins/procursus a7ef59f487868189c06d1bc561db4f44
-
-Package: essential
-Version: 0-5
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Pre-Depends: bootstrap | dpkg (>= 1.19.0)
-Depends: org.coolstar.sileo (>= 2.1) | xyz.willy.zebra (>= 1.1.19) | me.apptapp.installer (>= 5.1) | cydia | openssh-server, shshd
-Filename: ./debs/essential.deb
-Size: 694
-MD5sum: f5a99803836d102935cfafedb9fb8eae
-SHA1: 3b4b00fb6b5e1547224e15b9ee3418d420a8d679
-SHA256: 8eb29fdc2dd24589c67cb27f11c2874a40743d2c48ab13059c4fb5f9902b9bc7
-Section: System
-Priority: required
-Description: Virtual package to keep you safe from uninstalling important packages.
-Tag: cydia::essential, role::goddess
-
-Package: file-cmds
-Version: 287.40.2-3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 412
-Filename: ./debs/file-cmds.deb
-Size: 36000
-MD5sum: 3ef9cb7fcd6d5192b2ad63bf0d1615b4
-SHA1: a0282df209dc91ffa9e7531f138affcef1724c17
-SHA256: 75d6d8d42fc01fdedc3779363ac9a8d82a8de96e0120dbf960e51b16c8aafbac
-Section: Utilities
-Priority: important
-Description: chflags, compress, ipcrm, ipcs, pax
-Tag: purpose::console, role::hacker
-
-Package: findutils
-Version: 4.8.0-1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 852
-Depends: sh, sed, shell-cmds, libintl8
-Conflicts: shell-cmds (<< 207.40.1)
-Replaces: shell-cmds (<< 207.40.1)
-Filename: ./debs/findutils.deb
-Size: 230224
-MD5sum: 2587e3dc9db4103c1af515a82ab7aa07
-SHA1: c1aa60710cd09d85b081a1a0f1a12b6563a04e9a
-SHA256: cc95d1a4bb3a0e433a9d56b25c754b4fec53721d67d66de61522b647a45f7880
-Section: Utilities
-Priority: important
-Multi-Arch: foreign
-Homepage: http://www.gnu.org/software/findutils/
-Description: indexes and searches filesystems
-
-Package: gettext-localizations
-Version: 2020.10.07
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 6256
-Depends: libintl8 (>= 0.20.0)
-Conflicts: com.linusyang.localeutf8
-Replaces: com.linusyang.localeutf8
-Provides: com.linusyang.localeutf8 (= 99.9)
-Filename: ./debs/gettext-localizations.deb
-Size: 253364
-MD5sum: 5057d9cfa7f351c5ad31dc4a14125aae
-SHA1: 7120c63ac35361dfca69b2c50c560ceaa7fa1bf1
-SHA256: 291a4ab1b75f929265d5c394fbeffb758007b63eec949fb93aef177db373aab2
-Section: Localizations
-Priority: important
-Description: Locale files necessary for command line tool translation.
-
-Package: git
-Version: 2.34.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 6146
-Depends: libiosexec1, libcurl4, libssl3, libintl8, libpcre2-8-0, libidn2-0, firmware (>= 14.0) | libexpat1, pager
-Filename: ./debs/git.deb
-Size: 5372534
-MD5sum: 3b044ce01c699849ddbc017cb80746a5
-SHA1: eb06cd1fd371254d71b5b9c7a2a21ed97e5f0426
-SHA256: bdc262387e8d210b00eb375dc6b57415c848d843cd9bd03f614577835f378b02
-Section: Data_Storage
-Priority: optional
-Description: fast, scalable, distributed revision control system
- Git is popular version control system designed to handle very large
- projects with speed and efficiency; it is used for many high profile
- open source projects, most notably the Linux kernel.
- .
- Git falls in the category of distributed source code management tools.
- Every Git working directory is a full-fledged repository with full
- revision tracking capabilities, not dependent on network access or a
- central server.
-
-Package: gpgv
-Version: 2.3.6
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 488
-Depends: libassuan0, libgcrypt20, libgpg-error0, libintl8, libnpth0
-Conflicts: gnupg2, gnupg (<< 2.3.6)
-Replaces: gnupg2
-Filename: ./debs/gpgv.deb
-Size: 230678
-MD5sum: 5961c82320dcd16513694c76aa214fc8
-SHA1: 8b93b915d83f1acdab18c52fb6d5623ac1256e56
-SHA256: e84befc8b8500cda442dbba6a078c85ecc2bda96aacd37c723bd7160c98962df
-Section: Security
-Priority: standard
-Description: GNU privacy guard - signature verification tool
- GnuPG is GNU's tool for secure communication and data storage.
- .
- gpgv is actually a stripped-down version of gpg which is only able
- to check signatures. It is somewhat smaller than the fully-blown gpg
- and uses a different (and simpler) way to check that the public keys
- used to make the signature are valid. There are no configuration
- files and only a few options are implemented.
-
-Package: grep
-Version: 3.7
-Architecture: iphoneos-arm
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 980
-Depends: libpcre1
-Conflicts: text-cmds (<< 1:0)
-Replaces: text-cmds (<< 1:0)
-Filename: ./debs/grep.deb
-Size: 242500
-MD5sum: 5e26c7292f78d721ba4dc8b0c344eb01
-SHA1: b9cfdf96444b85dadb85800fe36fb899dcb56bbd
-SHA256: 1228443e6cdc620011a80b267f854db7a0611a0d852a65f6abe17599802da0f1
-Section: Utilities
-Priority: important
-Multi-Arch: foreign
-Homepage: http://www.gnu.org/software/grep/
-Description: searches files for regular expressions
-
-Package: gzip
-Version: 1.11
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 337
-Filename: ./debs/gzip.deb
-Size: 102792
-MD5sum: 4140854c6de87df6ea0418c621101124
-SHA1: 4a5330a5a30f898756230574c1757240ffb498fc
-SHA256: 347c79744f40f265f443dc0f0c03b54397cb061d3b3cd09779e23bc88cf212a8
-Section: Archiving
-Priority: standard
-Multi-Arch: foreign
-Homepage: http://www.gzip.org/
-Description: GNU compression utilities
- This package provides the standard GNU file compression utilities, which
- are also the default compression tools for Debian.  They typically operate
- on files with names ending in '.gz', but can also decompress files ending
- in '.Z' created with 'compress'.
-
 Package: icleanerpro
 Version: 7.9.1
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi
 Depends: firmware (>= 4.0), findutils, apt | apt7
-Filename: ./debs/icleanerpro_7.9.1.deb
-Size: 2928380
-MD5sum: fb9fcbedc7a647c86a038a6c8fbeba6b
-SHA1: de4bf4bed964c0ddad556434553688f4154bee14
-SHA256: ee4db2e8204103e143f021940bf96b78461425732b47cc7230f48a6a150dc6f0
+Filename: ./repo/debs/icleanerpro.deb
+Size: 2432034
+MD5sum: 3dc8c4568855df7d5ab85b44249a5085
+SHA1: beb0524ab9fabd9305c8d89b08d0c534d8f1ff41
+SHA256: 3015091b62775ef270db395e056d082aeb68e3946102636bcc447d021eeee35d
 Section: tweak
 Description: iCleaner Pro crack iOS9-14
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: iCleaner Pro
-
-Package: launchctl
-Version: 23-4
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 220
-Filename: ./debs/launchctl.deb
-Size: 56242
-MD5sum: 53668c09790bfc2c60a2c9c9d2ec1c1d
-SHA1: c83cbda6685027140d390c5d8aea566fc0896dfd
-SHA256: 5edfa484f60ce23ab63773763133035ef273a52c2f83bf85cbb6b7b81f41b23b
-Section: System
-Priority: required
-Description: Tells launchd what to do
-Name: Launch Daemon Controller
-
-Package: ld64
-Version: 609-2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 2924
-Depends: libuuid16, libxar1, liblto, libtapi
-Conflicts: org.coolstar.ld64
-Replaces: org.coolstar.ld64
-Provides: org.coolstar.ld64
-Filename: ./debs/ld64.deb
-Size: 681690
-MD5sum: 35e451898cbbd163eb166b8db010ea06
-SHA1: f3a1a6053803805c03611c10b4fba65a6169b89f
-SHA256: 38d53e1647237e0656e6cabcc7c0f5a037f91b34ed4feb47ac77a811a10466b9
-Section: Development
-Priority: optional
-Homepage: https://www.llvm.org/
-Description: 64-bit iOS linker
-Tag: purpose::console, role::developer
-
-Package: ldid
-Version: 2.1.5-procursus3
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 212
-Depends: libssl3, libplist3 (>= 2.2.0)
-Filename: ./debs/ldid.deb
-Size: 68102
-MD5sum: f16fcd2fcba67a5e74ca045f92ca3156
-SHA1: 6f74e975251e155b8d91daeb43d96798bd0528ec
-SHA256: d063449eb4aad4d5a4f33dc3ef3b6d42acb5ccf251822505b6f168716d074d18
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-
-Package: less
-Version: 590
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 392
-Depends: libncursesw6, libpcre2-8-0
-Replaces: system-cmds (<= 433.4-11)
-Provides: more, pager
-Filename: ./debs/less.deb
-Size: 111306
-MD5sum: 0e15890e779ebf3f6fe9f04741bcece3
-SHA1: 75925700294c8580a3945ce78266d8a58c727492
-SHA256: fa2e2035ead5671a165f069fad2ada381f76c060e265017437fe2149d1c87593
-Section: Utilities
-Priority: important
-Description: provides less information than more does
-
-Package: libapt-pkg6.0
-Version: 2.5.0
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 2884
-Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
-Conflicts: apt7 (<< 1:0), apt1.4 (<< 1:0), apt1.8 (<< 1:0), libapt-pkg5.0 (<< 1:0), libapt (<< 1:0), apt-key (<< 1:0), apt (<< 2.1.10-2)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
-Provides: libapt-pkg (= 2.5.0)
-Filename: ./debs/libapt-pkg6.0.deb
-Size: 870242
-MD5sum: f1d6e0891f06ffd63bc82783f180d8c6
-SHA1: 7fc2dd8288438905234d60c1c2612728932820f6
-SHA256: b951cebe015ff43ad251c12e80e59cd02f4fe079cbe5eb9d8340a54e7c8f8281
-Section: Libraries
-Priority: required
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: libassuan0
-Version: 2.5.5
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 120
-Depends: libgpg-error0
-Filename: ./debs/libassuan0.deb
-Size: 31696
-MD5sum: 6b4d4729c005f39170619ee2fb4e0e62
-SHA1: 27dab4365ee0ded32d2c3bc563ac4341c4346126
-SHA256: d67e7b94f4aaeeddc782407b8636de9b81480c1f148d95b2d9e4bf0287cbe47f
-Section: Libraries
-Priority: optional
-Description: IPC library for the GnuPG components
- Libassuan is a small library implementing the so-called "Assuan
- protocol". This protocol is used for IPC between most newer GnuPG
- components. Both server and client side functions are provided.
-
-Package: libbrotli1
-Version: 1.0.9
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1864
-Filename: ./debs/libbrotli1.deb
-Size: 323772
-MD5sum: f95f443c15b4fd80038a5d47cfcdfb89
-SHA1: fd0bfd55c729b541d79c65379cc6969cafcad967
-SHA256: e845d12c07335fcf0998a0d8de8d41e705eba162a3b9d9cb71b963041580d289
-Section: Development
-Priority: optional
-Homepage: https://www.brotli.org/
-Description: Shared libraries for the Brotli compression format
-Tag: purpose::library, role::developer
-
-Package: libc++-11-dev
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 5028
-Depends: libllvm11
-Filename: ./debs/libc++-11-dev.deb
-Size: 425320
-MD5sum: 22961021f170b197b26ff86d01744fcf
-SHA1: 7fde93517b7b662fc6d3765ac8d85a9c38707e9e
-SHA256: e31c7edde383751a13389f6336103f0696fe3991b69a05364d0e1b52bfd2ede4
-Section: Development
-Priority: optional
-Description: LLVM C++ Standard library (development files)
-
-Package: libc++-dev
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Depends: libc++-11-dev
-Filename: ./debs/libc++-dev.deb
-Size: 668
-MD5sum: 6e69ba08b5b6e75f29d3bf5be546e134
-SHA1: 957be20faaa664c6ccad5be02d37dc08619fd716
-SHA256: 85e12445a53bbd13c95c202cac645441c1f52407ae663c11f5686ff2024061d2
-Section: Development
-Priority: optional
-Description: LLVM C++ Standard library (development files)
-
-Package: libclang-common-11-dev
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 9996
-Depends: libllvm11
-Filename: ./debs/libclang-common-11-dev.deb
-Size: 504772
-MD5sum: 6c6eb616a6039d2e27d5535b6a35b06f
-SHA1: 1ede84487b62ce9a3fa2db3607100778b8816cad
-SHA256: ab2ab61e68c6b3a2c2eef0a7aa359dd04b37df8851c21e78f2f1ed3d44312793
-Section: Development
-Priority: optional
-Description: Clang library - Common development package
-
-Package: libclang-cpp11
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 50548
-Depends: libllvm11
-Filename: ./debs/libclang-cpp11.deb
-Size: 12528482
-MD5sum: ec1865de8a811a9b4b6791ef8eaa3b81
-SHA1: b6b6e6c1ec1ab2a48b6f894e822176ea5fdd5de8
-SHA256: a846107f79c007a5bdfbcf5ef2bc84348752745660b94b158364f55938c45a19
-Section: Development
-Priority: optional
-Description: Modular compiler and toolchain technologies, runtime library
-
-Package: libcrypt2
-Version: 4.4.27-1
-Architecture: iphoneos-arm
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 6
-Filename: ./debs/libcrypt2.deb
-Size: 92098
-MD5sum: 790c52e10fe6928d85957890f0f97fcd
-SHA1: 1e8406566af5de4f78739daffd88dc2143bec57d
-SHA256: d31fc2c4d9600f062ada79ca5b513737238dd29c50e480ea3fda34d69222eb1a
-Section: Libraries
-Priority: optional
-Description: libcrypt shared library
- libxcrypt is a modern library for one-way hashing of passwords.
- It supports DES, MD5, NTHASH, SUNMD5, SHA-2-256, SHA-2-512, and
- bcrypt-based password hashes
- It provides the traditional Unix 'crypt' and 'crypt_r' interfaces,
- as well as a set of extended interfaces like 'crypt_gensalt'.
-
-Package: libcurl4
-Version: 7.83.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 516
-Depends: libnghttp2-14, libssh2-1, libssl3, libidn2-0, libbrotli1, libzstd1, librtmp1
-Conflicts: curl (<< 7.83.1)
-Replaces: curl (<< 7.83.1)
-Filename: ./debs/libcurl4.deb
-Size: 213406
-MD5sum: 75fbf87831eb097d5d58acc21cd2987b
-SHA1: 2db57982447e4d5a230ba6751a1f48f59aeceeb5
-SHA256: a196e908c0d8cbf8122e08908186e87b48d21205ce6af7506e54f566e51b6285
-Section: Libraries
-Priority: standard
-Homepage: http://curl.haxx.se/
-Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
- libcurl is an easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
- .
- libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling and more!
- .
- libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported, fast, thoroughly documented and is already used by many known, big and successful companies and numerous applications.
- .
- SSL support is provided by OpenSSL
-
-Package: libdimentio0
-Version: 1:0~20210608.7ffffff
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 92
-Depends: firmware (<< 14.0) | libkernrw0 | libkrw
-Conflicts: com.michael.dimentio, com.kasiimh1.dimentio, com.0x7ff.dimentio
-Replaces: com.michael.dimentio, com.kasiimh1.dimentio, com.0x7ff.dimentio
-Filename: ./debs/libdimentio0.deb
-Size: 13696
-MD5sum: a11585cc0a9a396612d2168c356bb0b3
-SHA1: df2634792bb9858cbad45986a2adcc95d3f9a078
-SHA256: 90c723ea29404b44e30bd3d95021e7af817b21fe1cdd31ace75ca28545255ee5
-Section: Libraries
-Priority: optional
-Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (Runtime libraries)
-Author: 0x7ff
-
-Package: libedit0
-Version: 3.1-20210910
-Architecture: iphoneos-arm
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 232
-Depends: libncursesw6 (>= 6.0)
-Filename: ./debs/libedit0.deb
-Size: 79252
-MD5sum: 180a1b57784a46b156383e5d667c3f1a
-SHA1: 8e2b70f22c769947af36ca669e7d39e3dccdddf7
-SHA256: 943f1c820b592c895b2a71fdbac4bc309c84889e2cf082bb1d5bf239da187f2a
-Section: Libraries
-Priority: optional
-Description: BSD editline and history libraries
- Command line editor library provides generic line editing,
- history, and tokenization functions.
- .
- It slightly resembles GNU readline.
-
-Package: libffi7
-Version: 3.3-1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 136
-Conflicts: libffi (<< 1:0)
-Replaces: libffi (<< 1:0)
-Provides: libffi (= 3.3-1)
-Filename: ./debs/libffi7.deb
-Size: 8272
-MD5sum: 15c01c02899f6939c202d8dd5f33a64d
-SHA1: b6b91c9f90731c95d4006103a290d31488385032
-SHA256: a031175c67d6e9840b528ae0a9fb97273d44236160a8dddff6e5f786b2dddc1b
-Section: Libraries
-Priority: optional
-Multi-Arch: foreign
-Description: Foreign Function Interface library runtime
- A foreign function interface is the popular name for the interface that
- allows code written in one language to call code written in another
- language.
-
-Package: libffi8
-Version: 3.4.2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 120
-Filename: ./debs/libffi8.deb
-Size: 8058
-MD5sum: cc4c2ea9ed963c4de7f414474ebfe2cd
-SHA1: 0d4331be27794b3f74c51fcce487edc3c6190ce4
-SHA256: f48090a48f7f0cd84e800dc89e28b9b556492e4b033ec76ab5401d3c24d24142
-Section: Libraries
-Priority: optional
-Multi-Arch: foreign
-Description: Foreign Function Interface library runtime
- A foreign function interface is the popular name for the interface that
- allows code written in one language to call code written in another
- language.
-
-Package: libgcrypt20
-Version: 1.10.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 840
-Depends: libgpg-error0 (>= 1.37)
-Conflicts: gcrypt (<< 1:0), libgcrypt (<< 1:0)
-Replaces: gcrypt, libgcrypt
-Provides: gcrypt (= 1.10.1), libgcrypt (= 1.10.1)
-Filename: ./debs/libgcrypt20.deb
-Size: 398304
-MD5sum: d04a247fa188726af09654289dd83284
-SHA1: 02bcffe845b0a5cf63ee14d3945ed6e4a8614108
-SHA256: 0cc635ddc4d3304770247df1c6af719227a9254283f586e2a7dad83a6d0e92ea
-Section: Libraries
-Priority: optional
-Multi-Arch: foreign
-Description: LGPL cryptographic algorithm library (Libraries)
-
-Package: libgmp10
-Version: 6.2.1-3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 512
-Filename: ./debs/libgmp10.deb
-Size: 226466
-MD5sum: bd5d80e11010b3c268aeae3a80bab782
-SHA1: 4326aadc875407d212c0166c950701aca451d1ed
-SHA256: 568967ee7dc6062d3860879a2762fd2243a251e37599f06760e524a901a0dc38
-Section: Libraries
-Priority: optional
-Homepage: https://gmplib.org/
-Description: Multiprecision arithmetic library
- GNU MP is a programmer's library for arbitrary precision
- arithmetic (ie, a bignum package).  It can operate on signed
- integer, rational, and floating point numeric types.
- .
- It has a rich set of functions, and the functions have a regular
- interface.
-
-Package: libgnutls30
-Version: 3.7.6-1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1892
-Depends: libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring2, libnettle8, libhogweed6, libp11-kit0, libtasn1-6, libzstd1, libbrotli1
-Conflicts: gnutls (<< 1:0)
-Replaces: gnutls (<< 1:0)
-Provides: gnutls (= 1:0)
-Filename: ./debs/libgnutls30.deb
-Size: 819008
-MD5sum: 87eb552e1a3864b82718889bd3921b8c
-SHA1: 9c2e2cc8b46e80b572689cd9af1dca1c7d43ff11
-SHA256: be27a2272cbdc732d53753877c3b7529bfdcc027fe3d9d184bc466e152734638
-Section: Libraries
-Priority: optional
-Homepage: http://www.gnu.org/software/gnutls/
-Description: GNU TLS library - main runtime library
- GnuTLS is a portable library which implements the Transport Layer
- Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
- Transport Layer Security (DTLS 1.0, 1.2) protocols.
- .
- GnuTLS features support for:
-  - certificate path validation, as well as DANE and trust on first use.
-  - the Online Certificate Status Protocol (OCSP).
-  - public key methods, including RSA and Elliptic curves, as well as password
-    and key authentication methods such as SRP and PSK protocols.
-  - all the strong encryption algorithms, including AES and Camellia.
-  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
-  - HSMs and cryptographic tokens, via PKCS #11.
- .
- This package contains the main runtime library.
-
-Package: libgpg-error0
-Version: 1.45
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 216
-Depends: libintl8
-Filename: ./debs/libgpg-error0.deb
-Size: 73764
-MD5sum: 875ce4c8bd13d8ce1b8875f4f716cd1c
-SHA1: c6fa452cb09a947297b1ed9b59a7dbe48ab0de19
-SHA256: 855e7a8144a7b54a2e9251d13dbef52d014d24cea33fa5c501b4667657fe34e3
-Section: Libraries
-Priority: optional
-Description: GnuPG development runtime library
- Library that defines common error values, messages, and common
- runtime functionality for all GnuPG components.  Among these are GPG,
- GPGSM, GPGME, GPG-Agent, libgcrypt, pinentry, SmartCard Daemon and
- possibly more in the future.
- .
- It will likely be renamed "gpgrt" in the future.
-
-Package: libhogweed6
-Version: 3.7.3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 312
-Depends: libgmp10, libnettle8 (= 3.7.3)
-Filename: ./debs/libhogweed6.deb
-Size: 186294
-MD5sum: 06dcb7141fbbbebb18e097259179dd04
-SHA1: 51a4149cb4c730641f82d1f0b2aa19b0ef03c1e7
-SHA256: 9585a7d03acf81471376217c5c401647201c19268e5f0d0b69af2d80b51900b5
-Section: Libraries
-Priority: optional
-Homepage: http://www.lysator.liu.se/~nisse/nettle/
-Description: low level cryptographic library (public-key cryptos)
-
-Package: libidn2-0
-Version: 2.3.2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 348
-Depends: libintl8, libunistring2
-Conflicts: libidn2 (<< 2.3.2)
-Replaces: libidn2 (<< 2.3.2)
-Provides: libidn2 (= 2.3.2)
-Filename: ./debs/libidn2-0.deb
-Size: 77722
-MD5sum: f216aee6a39a5d28a21d48da1de9ed32
-SHA1: 96028d9701bd6e7bdfa3f139a7d68ca78d67a3be
-SHA256: 27fa90fa55cbe4d1f6652c168c346d382adf274adc1089d851581bd4ab13d009
-Section: Libraries
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.gnu.org/software/libidn/#libidn2
-Description: Internationalized domain names (IDNA2008/TR46) library
-
-Package: libintl8
-Version: 0.21-4
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 116
-Filename: ./debs/libintl8.deb
-Size: 25622
-MD5sum: a899af9c151c52ce9dd25e5679a65d36
-SHA1: f47b9afddde6d12c3932e9600374381f031b2ecb
-SHA256: 6e8ada931e9e29c6357ea6a2875d498cc8dcf6539b48f0d143afe71f121590a7
-Section: System
-Homepage: http://www.gnu.org/software/gettext/
-Description: internationalization helper for strings
-Essental: yes
-
-Package: libiosexec1
-Version: 1.0.20~1.1-alpha1
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 100
-Filename: ./debs/libiosexec1.deb
-Size: 7724
-MD5sum: da6ebab5b028d78206211271a835dad1
-SHA1: bc3a6aa458adc0e756cb56bbf452a2fbf726513a
-SHA256: 02861aa5ede3cd00f389ce365c4fe56a866be2420bd0d4c7876060c5d25b16d9
-Section: Libraries
-Priority: required
-Homepage: http://github.com/ProcursusTeam/libiosexec
-Description: shim for execve w/ shell script support
-
-Package: libkernrw0
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 72
-Conflicts: org.coolstar.libkernrw (<< 1.0-1)
-Replaces: org.coolstar.libkernrw (<< 1.0-1)
-Provides: org.coolstar.libkernrw (= 1.0-1)
-Filename: ./debs/libkernrw0.deb
-Size: 4690
-MD5sum: 345f9acc69a5bb25da111397a70f44c5
-SHA1: 69b56f05e39af999da4873ecb7502f098fcaf7f3
-SHA256: e2659eac0b1198a4756cb7e7f3558307160c680f00e2270a35e895e69b8c5049
-Section: Libraries
-Priority: standard
-Description: Kernel R/W API for iOS 14+ (Shared Library)
-
-Package: libllvm11
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 58972
-Depends: libncursesw6 (>= 6.0), libedit0, libffi7
-Filename: ./debs/libllvm11.deb
-Size: 17031958
-MD5sum: 9a684065523b545ebf9eca64b410a412
-SHA1: acc0aa8c8c03b68abe91bde0b1417901fea95f5f
-SHA256: 760ea057ac35f8d58b026ac3dfe8a8ada22e4aff2632517d88789c120890d2a9
-Section: Development
-Priority: optional
-Description: Modular compiler and toolchain technologies, runtime library
-
-Package: liblto
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Depends: liblto11
-Filename: ./debs/liblto.deb
-Size: 674
-MD5sum: 84e132dd1236214bc155341cb5d17742
-SHA1: bb1207efe76be0ea45183f6186244cbe0934738c
-SHA256: 87a1a7b9bedfc6c2adae784bbc557681577428fe61c1c5215ab4622bc36d5148
-Section: Development
-Priority: optional
-Description: Modular compiler and toolchain technologies, runtime library
-
-Package: liblto11
-Version: 11.1.0~5.4.1~RELEASE
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 112
-Depends: libllvm11
-Filename: ./debs/liblto11.deb
-Size: 21154
-MD5sum: 99eb293148a7aa7122e4ee40426d4f79
-SHA1: 6d03b5c029ecc0a82699db9f8aa00af6094a2761
-SHA256: 8fe2be45bcc5420f650d3a51ca457d0c49168848fcdf1772237f066ce7cbf644
-Section: Development
-Priority: optional
-Description: Modular compiler and toolchain technologies, runtime library
-
-Package: liblz4-1
-Version: 1.9.3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 156
-Conflicts: lz4 (<< 1.9.3)
-Filename: ./debs/liblz4-1.deb
-Size: 44210
-MD5sum: f0ef1397ab9170ee458e81421d693e89
-SHA1: abe60ac5b880af40aa44f19c73a3de8fe557a764
-SHA256: 86af000843a205da926fc50ac97776757c0824bbef0596ebe016f8001a57dace
-Section: Libraries
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: Fast LZ compression algorithm library - runtime
-
-Package: liblzma5
-Version: 5.2.5-3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 196
-Conflicts: xz (<< 1:0), lzma (<< 3:0)
-Replaces: xz, lzma
-Filename: ./debs/liblzma5.deb
-Size: 72310
-MD5sum: 5d72f63e2b48c11ca75cdd006ee7d3b6
-SHA1: 75d9ae52d76e9cf5d017755a6fcb84fa4be6d0c9
-SHA256: d1e0757f53bc6b4d42a32ceab6e51a66719fed2e23344fa6f69386fab95e622a
-Section: Libraries
-Priority: standard
-Homepage: https://tukaani.org/xz/
-Description: XZ-format compression library
- XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
- compression format, which provides memory-hungry but powerful
- compression (often better than bzip2) and fast, easy decompression.
- .
- The native format of liblzma is XZ; it also supports raw (headerless)
- streams and the older LZMA format used by lzma. (For 7-Zip's related
- format, use the p7zip package instead.)
-
-Package: libmd0
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 100
-Filename: ./debs/libmd0.deb
-Size: 20952
-MD5sum: 936ff12a319bdf48c39aaa06b82542d8
-SHA1: 98394a8051e2b25601fb802f1635e41e3e42187c
-SHA256: b833ca5969b1cce9554b1b54ea1834bf438215f8c9e4cb7d1d0b2aa30c593a38
-Section: Libraries
-Priority: optional
-Description: message digest functions from BSD systems - shared library
- The libmd library provides various message digest ("hash") functions,
- as found on various BSDs on a library with the same name and with a
- compatible API.
-
-Package: libncursesw6
-Version: 6.3-2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 836
-Depends: ncurses-term (= 6.3-2)
-Conflicts: ncurses (<< 6.3-2)
-Replaces: ncurses (<< 6.3-2)
-Provides: ncurses (= 6.3-2)
-Filename: ./debs/libncursesw6.deb
-Size: 377780
-MD5sum: 082e9974744cfac924200129ebdad924
-SHA1: 462027fd5c7c78d681c5316e7b314b9df59fa112
-SHA256: 3899e3ad065002a7eda81522a81e473cff6f950357a48d8a618a31cd81c8f1ef
-Section: Libraries
-Priority: required
-Description: shared libraries for terminal handling (wide character support)
-
-Package: libnettle8
-Version: 3.7.3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 284
-Filename: ./debs/libnettle8.deb
-Size: 124292
-MD5sum: 46c812f0e6e02e561adc0941e5f50b6b
-SHA1: 21c73b6aa207ec29111dce87095ebd240a7d587e
-SHA256: e1c82209b5db80d4087e527439b973e34b43e1944e6f211c5552ed99d4550ace
-Section: Libraries
-Priority: optional
-Homepage: http://www.lysator.liu.se/~nisse/nettle/
-Description: low level cryptographic library (symmetric and one-way cryptos)
-
-Package: libnghttp2-14
-Version: 1.47.0
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 176
-Filename: ./debs/libnghttp2-14.deb
-Size: 52750
-MD5sum: 92d8c6aedcb7dcae5565d7eaa134f5bd
-SHA1: 0bbb2a9150af878c3114adae0fb716e69b847722
-SHA256: 2bd7d43a3d8f2adb293d96fa0c0e7fe8f40b32dec3f8ab27f6ea6c8768636d44
-Section: Libraries
-Priority: standard
-Homepage: https://nghttp2.org/
-Description: library implementing HTTP/2 protocol (shared library)
- This is an implementation of the Hypertext Transfer Protocol version
- 2 in C. The framing layer of HTTP/2 is implemented as a reusable C
- library.
- .
- This package installs a shared library.
-
-Package: libnpth0
-Version: 1.6-2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 72
-Conflicts: gnupth, npth (<< 1.6-2)
-Replaces: npth (<< 1.6-2)
-Provides: npth (= 1.6-2)
-Filename: ./debs/libnpth0.deb
-Size: 5824
-MD5sum: 5a9841870246908079b024dede83ff54
-SHA1: 9da257e3b13d6943e0e767d57a3a4f5279337292
-SHA256: 57af791c6422e3edeacf0242df68298bac2fb464cf111f0fb16f217d30f6697a
-Section: Libraries
-Priority: optional
-Multi-Arch: foreign
-Description: replacement for GNU Pth using system threads
-Name: New GNU Portable Threads
-
-Package: libp11-kit0
-Version: 0.24.0
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1064
-Depends: libintl8, libffi8, ca-certificates
-Conflicts: p11-kit (<< 0.24.0)
-Replaces: p11-kit (<< 0.24.0)
-Filename: ./debs/libp11-kit0.deb
-Size: 190924
-MD5sum: 78791f0baac21b3e1c446d5e3d16d676
-SHA1: 57eb9ae8e72cd10e98f11bad84121a1c4de26b4d
-SHA256: 1beb1518825d68ab29527024e6125e536cb401770f8a72541acdee45d146d353
-Section: Libraries
-Priority: standard
-Multi-Arch: foreign
-Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
-Description: library for loading and coordinating access to PKCS#11 modules - runtime
- The p11-kit library provides a way to load and enumerate Public-Key
- Cryptography Standard #11 modules, along with a standard configuration
- setup for installing PKCS#11 modules so that they're discoverable. It
- also solves problems with coordinating the use of PKCS#11 by different
- components or libraries living in the same process.
- .
- This package contains the shared library required for applications loading
- and accessing PKCS#11 modules.
-
-Package: libpam-modules
-Version: 186.60.1-1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1212
-Depends: libpam2
-Filename: ./debs/libpam-modules.deb
-Size: 96330
-MD5sum: a88063f0e14cf64c89b38021386e11f4
-SHA1: 65a957dc296c3ae10b90ec5f63277d55925da4bd
-SHA256: 32397dea7b310dc3ad5ce43668b92c46f55cc4f11cf7a68e9cfd7fb2b2622a46
-Section: Administration
-Description: Pluggable Authentication Modules for PAM
- This package completes the set of modules for PAM. It includes the
-  pam_unix.so module as well as some specialty modules.
-
-Package: libpam2
-Version: 20190224
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 100
-Depends: libpam-modules
-Filename: ./debs/libpam2.deb
-Size: 19408
-MD5sum: 6eff4384e50dac50b4500dc337cfbe8d
-SHA1: 3861369f7d04c13a637bd5bb37d95ac55efbec61
-SHA256: 1479195105958d2eeec635ce12722afb078763139bff46e3cc7b22adc0125d36
-Section: Administration
-Description: Pluggable Authentication Modules library
- Contains the shared library for OpenPAM, a library that enables the
- local system administrator to choose how applications authenticate users.
- In other words, without rewriting or recompiling a PAM-aware application,
- it is possible to switch between the authentication mechanism(s) it uses.
- One may entirely upgrade the local authentication system without touching
- the applications themselves.
-
-Package: libpcre1
-Version: 8.45-1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 460
-Conflicts: pcre (<< 1:0), libpcre (<< 1:0)
-Replaces: pcre, libpcre
-Provides: pcre (= 1:0), libpcre (= 8.45-1)
-Filename: ./debs/libpcre1.deb
-Size: 156060
-MD5sum: fd26ff7654ed7e6467e769a38a3e7194
-SHA1: 3059324cf1938bf7cac21069609dc73fedff1313
-SHA256: 016d758936e249d4a88c80eb8864115811c1b274c67ec1ea656e750b3ebb61d4
-Section: Libraries
-Priority: standard
-Multi-Arch: foreign
-Description: Old Perl 5 Compatible Regular Expression Library - runtime library
- This is a library of functions to support regular expressions whose syntax
- and semantics are as close as possible to those of the Perl 5 language.
- .
- New packages should use the newer pcre2 packages, and existing
- packages should migrate to pcre2.
- .
- This package contains the runtime library.
-
-Package: libpcre2-8-0
-Version: 10.40
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 556
-Conflicts: pcre2 (<< 1:0), libpcre2 (<< 1:0)
-Replaces: pcre2, libpcre2
-Provides: pcre2 (= 1:0), libpcre2 (= 10.40)
-Filename: ./debs/libpcre2-8-0.deb
-Size: 193316
-MD5sum: d96bb60d876d9fb85d282e0100ebb8b1
-SHA1: 4dd1787a8f88f760ec090fbcdcebf41fcc2b6c20
-SHA256: fb002043b26a70d3b9bc0d5feaf21627b0ab1cad7d2d3bee30ec3187080db790
-Section: Libraries
-Priority: standard
-Multi-Arch: foreign
-Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
- This is PCRE2, the new implementation of PCRE, a library of functions
- to support regular expressions whose syntax and semantics are as
- close as possible to those of the Perl 5 language. New projects
- should use this library in preference to the older library.
- .
- This package contains the 8 bit runtime library.
-
-Package: libplist3
-Version: 2.2.0
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 232
-Conflicts: libplist
-Replaces: libplist
-Provides: libplist (= 99)
-Filename: ./debs/libplist3.deb
-Size: 27556
-MD5sum: 68c2951b6eee582cd3779551682fdfe6
-SHA1: be853275877b60799f86fe65e28b891563f7f18c
-SHA256: 9e5c29f4747f335739082f3836fdb483216135c3709eb0727f967d34b49ba614
-Section: Networking
-Priority: standard
-Description: Library for handling Apple binary and XML property lists
-Tag: purpose::library, role::developer
-
-Package: libpopt0
-Version: 1.18
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 228
-Filename: ./debs/libpopt0.deb
-Size: 37574
-MD5sum: acaabf8e4a72f00cf1eaa895ca8308f4
-SHA1: b4b2ced678703b800f18fb701af8d139d4ab943b
-SHA256: 0e7c485b18a12792ec828bbce884349fdfd577d22589e366e82d86666d13cfd6
-Section: Libraries
-Description: lib for parsing cmdline parameters
- Popt was heavily influenced by the getopt() and getopt_long() functions,
- but it allows more powerful argument expansion. It can parse arbitrary
- argv[] style arrays and automatically set variables based on command
- line arguments. It also allows command line arguments to be aliased via
- configuration files and includes utility functions for parsing arbitrary
- strings into argv[] arrays using shell-like rules.
- .
- This package contains the runtime library.
-
-Package: libreadline8
-Version: 8.1.2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 464
-Depends: libncursesw6
-Conflicts: readline (<< 8.1.2)
-Replaces: readline (<< 8.1.2)
-Provides: readline (= 8.1.2)
-Filename: ./debs/libreadline8.deb
-Size: 150316
-MD5sum: ee19a1bac6e33ad8f9e0dd31abbb751e
-SHA1: f7d0cbbac9c66060e216eb71ce60544be7ee3b5f
-SHA256: a4fb8d1d1f8ef0bff78935b4fc7d22da9b0b57caf6bbe8d3f6417b2aed980769
-Section: Libraries
-Priority: required
-Description: GNU readline and history libraries, run-time libraries
-
-Package: librtmp1
-Version: 2.4+20151223.gitfa8646d.1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 352
-Depends: libgnutls30, libhogweed6, libnettle8, libgmp10
-Filename: ./debs/librtmp1.deb
-Size: 57228
-MD5sum: e4b0fb13bc5e66c84bd42b455ebc3d63
-SHA1: 32a2765411f09a805822ef27817c7c086fd161b4
-SHA256: 649b8803caf80e70f7ec10dcfa161348dbd1061c0706bb857daf47d271b54170
-Section: Libraries
-Priority: standard
-Description: toolkit for RTMP streams (shared library)
- A small dumper for media content streamed over the RTMP protocol (like BBC's
- iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
- flv file, which can be played/transcoded with standard tools.
- .
- This package contains the shared libraries, header files needed by
- programs that want to use librtmp.
-
-Package: libssh2-1
-Version: 1.10.0-1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 324
-Depends: libssl3
-Conflicts: libssh2 (<< 1.10.0-1)
-Replaces: libssh2 (<< 1.10.0-1)
-Provides: libssh2 (= 1.10.0-1)
-Filename: ./debs/libssh2-1.deb
-Size: 149284
-MD5sum: 087da8ccb564e2b203ff4b225f4de594
-SHA1: b7184b475c6a61951a2c56cccb1a2b3283ea33d7
-SHA256: cf9ab4c950b87bd114af9b241ef5198a7c203a9ce45958ed913825c8257da204
-Section: Libraries
-Priority: optional
-Homepage: https://www.libssh2.org/
-Description: SSH2 client-side library
-
-Package: libssl3
-Version: 3.0.5
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 4000
-Depends: ca-certificates
-Filename: ./debs/libssl3.deb
-Size: 1474718
-MD5sum: fa4d4066bad3388606e3e1cc05ed96d4
-SHA1: f2a478a402b4f7ab07a91a0b042adab08afd342a
-SHA256: da81014ec1d2b8a46170755ba29ef144a25314e550a79323ebaea902dd5b0e69
-Section: Libraries
-Priority: standard
-Description: Secure Sockets Layer toolkit - shared libraries
- This package is part of the OpenSSL project's implementation of the SSL
- and TLS cryptographic protocols for secure communication over the
- Internet.
- .
- It provides the libssl and libcrypto shared libraries.
-
-Package: libtapi
-Version: 1100.0.11-1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 412
-Depends: libncursesw6 (>= 6.0)
-Conflicts: libtapi10
-Replaces: libtapi10
-Filename: ./debs/libtapi.deb
-Size: 151144
-MD5sum: 42b1248ee8d010da376b6b358c2716c3
-SHA1: 8e5c4ed99e6268c01e05a8569dab8f6a89f9b3f9
-SHA256: f5bb253961c60df5f0ac8be10d4bff76867c33ea51d1692a3cf4eb2d33d3ca69
-Section: Development
-Priority: optional
-Description: Text-based Application Programming Interface (library)
-
-Package: libtasn1-6
-Version: 4.18.0
-Architecture: iphoneos-arm
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 136
-Conflicts: libtasn1 (<< 1:0)
-Replaces: libtasn1 (<< 1:0)
-Provides: libtasn1 (= 4.18.0)
-Filename: ./debs/libtasn1-6.deb
-Size: 42076
-MD5sum: 432a3bca275b31fe1f483a4ffc3536ad
-SHA1: 50134dae0178118f4072d3eece0984ac264b36e8
-SHA256: 7ca952a80fc5afb6d4f66f4f371eaef0e789ea826406af9a8c169eb69a4982bc
-Section: Libraries
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.gnu.org/software/libtasn1
-Description: Manage ASN.1 structures (runtime)
- Manage ASN1 (Abstract Syntax Notation One) structures.
- The main features of this library are:
-   * on-line ASN1 structure management that doesn't require any C code
-     file generation.
-   * off-line ASN1 structure management with C code file generation
-     containing an array.
-   * DER (Distinguish Encoding Rules) encoding
-   * no limits for INTEGER and ENUMERATED values
- .
- This package contains runtime libraries.
-
-Package: libunistring2
-Version: 0.9.10-2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1636
-Conflicts: libunistring (<< 0.9.10-2)
-Replaces: libunistring (<< 0.9.10-2)
-Provides: libunistring (= 0.9.10-2)
-Filename: ./debs/libunistring2.deb
-Size: 504380
-MD5sum: a7f3a03efce7184333cc2621eef58ef9
-SHA1: 8ea1b1fa2efa831dc52f187c19b91143d1f9ad00
-SHA256: 87edea1084ff8b851370ace213f088cbe883d22d6216f0aefd922a10d97d55c8
-Section: Libraries
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://www.gnu.org/software/libunistring/
-Description: Unicode string library for C
-
-Package: libuuid16
-Version: 1.6.2-3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 216
-Conflicts: uuid (<< 1.6.2-3)
-Replaces: uuid (<< 1.6.2-3)
-Filename: ./debs/libuuid16.deb
-Size: 22858
-MD5sum: e0550a33c371863edce955dff6dae1e3
-SHA1: 8668aab35657c061fe874d2c1d96e3b006e49a21
-SHA256: df9eb79c18e52625641758f136ebcb3d4fa82ec4f59b95599eb21ec0efb300a1
-Section: Libraries
-Priority: important
-Description: Universally Unique ID library
- The libuuid library generates and parses 128-bit Universally Unique
- IDs (UUIDs). A UUID is an identifier that is unique within the space
- of all such identifiers across both space and time. It can be used for
- multiple purposes, from tagging objects with an extremely short lifetime
- to reliably identifying very persistent objects across a network.
-
-Package: libxar1
-Version: 1.8.0.487.100.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 144
-Depends: libssl3
-Conflicts: xar (<< 1.8.0.487.100.1)
-Replaces: xar (<< 1.8.0.487.100.1)
-Filename: ./debs/libxar1.deb
-Size: 36040
-MD5sum: fda1176785d9a0093cc8c94ee73e63e5
-SHA1: 28723ef9945d06f29351105d9fa349db213be9e4
-SHA256: 0e23fd8522f87c9e58806ed04f62e97add3c254b2079385b0cc0f11282bfc7e1
-Section: Libraries
-Priority: optional
-Homepage: https://mackyle.github.io/xar/
-Description: eXtensible ARchive format - dynamic library
-
-Package: libxxhash0
-Version: 0.8.1
-Architecture: iphoneos-arm
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 76
-Filename: ./debs/libxxhash0.deb
-Size: 10810
-MD5sum: 5ebfc9d70a1bc7953386d544ca8cde0d
-SHA1: 0784bc350de946b20a46a8d501a42383085ff992
-SHA256: 663d0cfbf39ddc8ae85e5e7789c0739ac45c3087ccbfae2ba61c6b5a0bd11374
-Section: Libraries
-Description: shared library for xxhash
- xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
- It successfully completes the SMHasher test suite which evaluates collision,
- dispersion and randomness qualities of hash functions. Code is highly portable,
- and hashes are identical on all platforms (little / big endian).
- .
- This package contains the shared library.
-
-Package: libz-ng2
-Version: 2.0.6
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 156
-Filename: ./debs/libz-ng2.deb
-Size: 53958
-MD5sum: 0f6f004ae7c19bdc85f8d3a5ba71dccd
-SHA1: 58351cff074deff77a025406d1f5d03f35a1add1
-SHA256: 3dca72cc640e54cca7f05dbf3f24d131016c79ed385f0bc6a214a2a8e1df18b4
-Section: Libraries
-Priority: optional
-Description: next gen zlib compression library - runtime
- next generation zlib library implementing the deflate compression method
- found in gzip and PKZIP. This package includes the shared library.
-
-Package: libzstd1
-Version: 1.5.2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 680
-Depends: liblz4-1, liblzma5 (>= 5.2.5)
-Filename: ./debs/libzstd1.deb
-Size: 214146
-MD5sum: 96d95e1053aee4493eef4cb2d08ebe1e
-SHA1: dcb1ed8645f77241df5e437fbfa8f31d11da0c9b
-SHA256: 4a09d24690ca298a3c1cab8d4fbc39513cba0d5c9c58ff80c8a07f5616555312
-Section: Libraries
-Description: fast lossless compression algorithm
- Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
- real-time compression scenarios at zlib-level compression ratio.
- .
- This package contains the shared library.
-
-Package: make
-Version: 4.3-6
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1440
-Depends: libiosexec1 (>> 1.0.16), libintl8
-Filename: ./debs/make.deb
-Size: 298712
-MD5sum: 5ac89c336d1015c656bc3ea79c534076
-SHA1: 193ad202204a3fc50bd3536a329d54821e3733e5
-SHA256: 569a5626a2d38a93d442e0bdb34c8cd7afe8fee1864dde8dcfef09f905e616d0
-Section: Development
-Priority: important
-Description: utility for directing compilation
- GNU Make is a utility which controls the generation of executables
- and other target files of a program from the program's source
- files. It determines automatically which pieces of a large program
- need to be (re)created, and issues the commands to (re)create
- them. Make can be used to organize any task in which targets (files)
- are to be automatically updated based on input files whenever the
- corresponding input is newer --- it is not limited to building
- computer programs. Indeed, Make is a general purpose dependency
- solver.
-
-Package: mterminal
-Version: 1.5-2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
-Conflicts: com.officialscheduler.mterminal
-Replaces: com.officialscheduler.mterminal
-Provides: com.officialscheduler.mterminal (= 1.5-2)
-Filename: ./debs/mterminal.deb
-Size: 91710
-MD5sum: f3b427675829a18cb4d602b46dba36b3
-SHA1: d612cc40a5016e0401adccbbd915eaec2098b810
-SHA256: 82208116d3e371f06e5b449e1dc181eb0b38c7ee2b13955689ccea92a7e6daa1
-Section: Utilities
-Priority: standard
-Description: A MobileTerminal fork
-Tag: purpose::uikit, role::enduser
-Author: lordscotland
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
-Name: MTerminal
-
-Package: ncurses-bin
-Version: 6.3-2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 832
-Depends: libncursesw6 (= 6.3-2)
-Conflicts: ncurses (<< 6.3-2)
-Replaces: ncurses (<< 6.3-2)
-Filename: ./debs/ncurses-bin.deb
-Size: 355514
-MD5sum: 94642ee489e0342de5ed78cd164b1540
-SHA1: 5f9205b1747f299566871644532c9d89542c554b
-SHA256: f2ec472756d5aee128626f38bffc23ec0d6aba5e8459f4df46356d9a46ee6b62
-Section: Utilities
-Priority: important
-Description: terminal-related programs and man pages
-
-Package: ncurses-term
-Version: 6.3-2
-Architecture: all
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1492
-Depends: libncursesw6 (= 6.3-2)
-Conflicts: ncurses (<< 6.3-2)
-Replaces: ncurses (<< 6.3-2)
-Filename: ./debs/ncurses-term.deb
-Size: 245610
-MD5sum: 5e57df8fb1dfbd37ae5f914195cd9d42
-SHA1: 49b51e1dd70a84515425065b12208a1732bbab02
-SHA256: 3eebea60a1a14b3557514cb8c76652310452dcd72049a0706e7481d6bb805bb0
-Section: System
-Priority: required
-Description: This package contains terminfo data files to support most types of terminals.
 
 Package: net.angelxwind.appsyncunified
 Version: 2022.06.14
@@ -1949,11 +329,11 @@ Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 268
 Depends: firmware (>= 14.0), mobilesubstrate
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified.deb
-Size: 11990
-MD5sum: 632af883a6922545b16d7ae661b3f344
-SHA1: 21900d8f8b57f3d88274c2ad8c93b0ce6cc7f7c9
-SHA256: 68bb7940793e29338e80007e6d2d48571593ff75b4ec7fa5e80355230dd07500
+Filename: ./repo/debs/net.angelxwind.appsyncunified.deb
+Size: 11992
+MD5sum: efdc2d519821f154824ce6b1d12877fa
+SHA1: 2928e6c4eea6e56e970f38a65603591f7ff318e9
+SHA256: 53459d6371d39ecd2784f3f7765c891473c921274c5a2f7dc6c35f7baed4fca3
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -1967,11 +347,11 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 584
 Depends: firmware (>= 9.0), mobilesubstrate
-Filename: ./debs/netskao.bilibilipure.deb
-Size: 174604
-MD5sum: 4d47d97f8b005b264a097d15360e9f1b
-SHA1: c5f4919295c374eb4a1201677fd01abca8b23d3d
-SHA256: d7584b0eb2a8579e6714a0c5779cc520e8f3e3999b3d03d28d5a975f0793aea2
+Filename: ./repo/debs/netskao.bilibilipure.deb
+Size: 174610
+MD5sum: ea936cbbe7f11d714d14aa1c2bb11657
+SHA1: b9695a1f83e53bca2cd0f3cfa2902ab27529ab37
+SHA256: 41b78a0d1d2c8eb9804f1e8a0ba2893cc23b847b2d25cf52ef7ca40eb386acf0
 Section: Netskao-Tweaks
 Description: 哔哩哔哩净化，详情净化查看预览图，设置位于哔哩哔哩-设置页面顶部，仅支持6.68.0及以上版本(此插件不支持iPad设备)
 Author: Netskao
@@ -1982,11 +362,11 @@ Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1828
-Filename: ./debs/netskao.classdump.deb
-Size: 671020
-MD5sum: d0b3866a9fdb39bd5b577e07f2025ba1
-SHA1: cc5a6f149973545c0e981e478aac8c9fdc580c01
-SHA256: ffa0b164e095952e0e43694ed67f85c144ad85616fb49d9ccab1cf5ed94d53d1
+Filename: ./repo/debs/netskao.classdump.deb
+Size: 671022
+MD5sum: a7019a0e2ff8f30b54a221447cc029d1
+SHA1: 37dbba4a93a96e6e1ee75162a6826c0ad7a8675c
+SHA256: bd3ca552f8eafb959d59b59c31704151587b1d818c6eab099bd865e75f9d11f7
 Section: Netskao-Tweaks
 Homepage: https://github.com/nygard/class-dump
 Description: class-dump is a command-line utility for examining the Objective-C segment of Mach-O files. Support iOS
@@ -1999,11 +379,11 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/netskao.clearallmessages.deb
+Filename: ./repo/debs/netskao.clearallmessages.deb
 Size: 11594
-MD5sum: 08ab6f0a0005b9a0ec9c91249a557a2d
-SHA1: 0c7238cef0768bd43536da42a16369faa388f453
-SHA256: 13e008c7c1a19e567f48857be1add9779dd00ee2139531998b56e703e9c92610
+MD5sum: a74686fb2183a56a0ac82a181e9d0bae
+SHA1: d9ad9852a437e0f2abc32c95c1b026dce80fd636
+SHA256: c4f0bb3a7a26f0cbc04033e9f3690452ce64e6dca41937f7c0d7bd42334adbea
 Section: Netskao-Tweaks
 Description: 在短信列表编辑模式下给短信添加一键清空所有信息，详细查看预览截图
 Author: Netskao
@@ -2015,11 +395,11 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 2992
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/netskao.dumpdecrypter.deb
-Size: 1115290
-MD5sum: b9aaaf75404c87dffcb274ddf96d2e9e
-SHA1: 5df3f556c3576108a480886ffb58e312f1e3fc56
-SHA256: e96fabc6838db3126666428d80521435d48dda07424f8a8e76ae8d9d96290e89
+Filename: ./repo/debs/netskao.dumpdecrypter.deb
+Size: 1115272
+MD5sum: edbe0acb517aae22b1cd3c6aefc8baba
+SHA1: af38c8e646e56bfa8d24138bcbaa57bf90e4e777
+SHA256: 515a056957cd182e63376d2e493dd4079b3e44fedf171421e24481e5ad191100
 Section: Netskao-Tweaks
 Description: Decrypt iOS Apps
 Author: Netskao
@@ -2031,227 +411,32 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 172
 Depends: mobilesubstrate, com.tigisoftware.filza64bit
-Filename: ./debs/netskao.filzacrack.deb
-Size: 27392
-MD5sum: c8560ca0e19c71b6f29ad13eb2671fca
-SHA1: 337f682bc4abb3b376381196064bb3d84a5eafcc
-SHA256: 8bb720703e8e2d9b7609eb0d1c476b042bd4b1d467218cb59bb2e2d14cb572f7
+Filename: ./repo/debs/netskao.filzacrack.deb
+Size: 27404
+MD5sum: 0e9bfd1e973c3843c8bcce6e84887cf3
+SHA1: 1671fe22354d328d4f550d28d7b83c3d99bd807e
+SHA256: 1f10ded35bf4e295ea3a295b3cae60a6adfa70d7ca2a09ccb4492ea3f6bd20b4
 Section: Netskao-Cracks
 Homepage: https://tigisoftware.com/cydia/
 Description: Filza解锁全功能无限制，主程序官方源安装即可
 Author: Netskao
 Name: Filza Crack
 
-Package: netskao.flexlist
-Version: 1.3-4.3
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 10356
-Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
-Filename: ./debs/netskao.flexlist.deb
-Size: 2803718
-MD5sum: db8307400d682a120433809228844d46
-SHA1: 80598543aee379f546721b40bbbd9013aafc66da
-SHA256: 86089ff533f802ae0b7a0fe1161bca37eee775daa37e086fce03130e0070eab4
-Section: Netskao-Tweaks
-Description: FLEXList is a wrapper tool for FLEX Tool
-Author: Netskao
-Name: FLEXList
-
 Package: netskao.redditnoads
-Version: 1.1-5
+Version: 1.1-8
 Architecture: iphoneos-arm
 Maintainer: Nets
-Installed-Size: 272
+Installed-Size: 352
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/netskao.redditnoads.deb
-Size: 80930
-MD5sum: 02255fe096b25d4c8a35de1b8cee5e7b
-SHA1: 5209a0bc6632cb071cac88bd648f4a1b90176e40
-SHA256: 8354eb488a9ca88deb09224f7a7a265d6d78a9cef4cb982f7834bc362cd45ce4
+Filename: ./repo/debs/netskao.redditnoads.deb
+Size: 92082
+MD5sum: a7c59431f8b380ce16f7e2fdfea8e3cc
+SHA1: 02f54e70ec36171666b144e73123510efeca6fd2
+SHA256: a623a19e920fb33891b027380c47075d2aad33f241d71ce75e4f212e0d3041e1
 Section: Netskao-NoAds
 Description: Reddit removes all AdPost and all RecommendedPost, Only version 2022.22.0 and above are supported
 Author: Netskao
 Name: Reddit NoAds
-
-Package: odcctools
-Version: 973.0.1-1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 6488
-Depends: libuuid16, libxar1, liblto, libtapi
-Filename: ./debs/odcctools.deb
-Size: 905606
-MD5sum: 6d3b99228b68dc62caf90978b831da29
-SHA1: 4fa9939ec6544d3ba1f4273d3ddddc817fc7ffde
-SHA256: 979af9c8978edffcd91f30da04882b3052e98ebb16c76761a79952c0222581e2
-Section: Development
-Priority: optional
-Homepage: https://github.com/tpoechtrager/cctools-port
-Description: linker and assembler for the iPhone
-Name: Darwin CC Tools
-
-Package: odyssey-keyring
-Version: 2021.07.20
-Architecture: all
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 4
-Filename: ./debs/odyssey-keyring.deb
-Size: 7916
-MD5sum: d2eecc4c1d49cf79aa3b2adf870add7a
-SHA1: 01341c965f3a058a5924c0624aafdccab0ea6db4
-SHA256: 04b3445be6c82bc3293b099a83982c2cce8a4124c8cb3e256535bdaa85789f7a
-Section: Keyrings
-Priority: optional
-Description: GnuPG keys for the Odyssey repository
-Name: Odyssey APT Keyring
-
-Package: org.coolstar.libhooker
-Version: 1.6.9
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
-Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
-Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
-Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: ./debs/org.coolstar.libhooker.deb
-Size: 60588
-MD5sum: 63027c657c33e102359324622c38f8a6
-SHA1: d62393e2f0224aff0c51614919ddd67f8737a860
-SHA256: f59528469ab6b938946b05dd07ff9ddf5797105e5de1d929291b780061f053fa
-Section: System
-Description: General Purpose Injection and Hooking library for 64-bit devices
-Author: CoolStar <coolstarorganization@gmail.com>
-Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
-Name: libhooker
-Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
-
-Package: org.coolstar.libhooker-configurator
-Version: 1.3
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: org.coolstar.libhooker (>= 1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
-Filename: ./debs/org.coolstar.libhooker-configurator.deb
-Size: 280070
-MD5sum: f7c626f2f05e3b0eaaf9630490973e45
-SHA1: b5075b0cb593489901f9594cb03bc4fb1a3b0dd0
-SHA256: 2dad0bca7b6bec51167a732c573c801ffdd068b4c7c6a43f286e38d25a6ac2e2
-Section: Packaging
-Priority: required
-Description: Configuration Utility for libhooker
-Author: CoolStar <coolstarorganization@gmail.com>
-Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
-Name: libhooker-configurator
-Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker-configurator.json
-
-Package: org.coolstar.safemode
-Version: 1.1.4
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 11.0), cy+cpu.arm64
-Replaces: org.coolstar.libhooker (<< 1.2.5)
-Filename: ./debs/org.coolstar.safemode.deb
-Size: 560708
-MD5sum: 4b8785377a4f9f5cb5ab0161221220e2
-SHA1: 43be87e53b5275660247c42f20235d46be78a1d3
-SHA256: ca8c6967ed2bd4380ef663b9f958be747beae239aa0bdcef5d775f48ff51e7c4
-Section: System
-Description: Safe Mode app for libhooker
-Author: CoolStar <coolstarorganization@gmail.com>
-Name: Safe Mode (libhooker)
-
-Package: org.coolstar.sileo
-Version: 2.3-1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./debs/org.coolstar.sileo.deb
-Size: 2179824
-MD5sum: 9afe36c6139c1c76fa5a6b837520cbf5
-SHA1: 2e3994a3abc9d9cfa84e10d83e1376390acea3cd
-SHA256: 879b28363681093d185647f387d10b911b436af9b4d232aa5e07b900171230ce
-Section: Packaging
-Description: A modern APT package manager frontend
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-Name: Sileo
-Sileodepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: p7zip
-Version: 17.04
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 9572
-Filename: ./debs/p7zip.deb
-Size: 2054614
-MD5sum: 768af56c0be9cc07fb14fd4dc3e7ceb7
-SHA1: ccc7bdfb51ba9e90b4a582b3d1c04b9ef335f261
-SHA256: 9d03c944e6c3a4ed880a4ffead456e3795eaa8804717ca183e640a49567b2e34
-Section: Archiving
-Priority: optional
-Multi-Arch: foreign
-Description: claims to be a good compressor
-Tag: purpose::console, role::hacker
-Name: 7-zip (POSIX)
-
-Package: packix-keyring
-Version: 2021.07.19
-Architecture: all
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 4
-Filename: ./debs/packix-keyring.deb
-Size: 7916
-MD5sum: 7aa303dcbddaa08d704dcf18a805a1ee
-SHA1: 450cba4115fec000ded9158e16b582d665bce79b
-SHA256: 43aa3fbc08672f91fc63933c3417c503da642d33b25dd54f8a753c49b56e22ce
-Section: Keyrings
-Priority: optional
-Description: GnuPG keys for the Packix repository
-Name: Packix APT Keyring
-
-Package: perl
-Version: 5.32.1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 52676
-Depends: libiosexec1
-Filename: ./debs/perl.deb
-Size: 8605630
-MD5sum: 5b8bf1500fdf985900e26bb2e4025b6c
-SHA1: 49cf9333caabfc0c87ff63a7d3e0ec8d317636f0
-SHA256: b5f263c5c2ac87b174515d52fef1943a9ff29b06abb10c05afbae48afdbf7537
-Section: Scripting
-Priority: optional
-Homepage: http://dev.perl.org/perl5/
-Description: Larry Wall's Practical Extraction and Report Language
- Perl is a highly capable, feature-rich programming language with over
- 20 years of development. Perl 5 runs on over 100 platforms from
- portables to mainframes. Perl is suitable for both rapid prototyping
- and large scale development projects.
- .
- Perl 5 supports many programming styles, including procedural,
- functional, and object-oriented. In addition to this, it is supported
- by an ever-growing collection of reusable modules which accelerate
- development. Some of these modules include Web frameworks, database
- integration, networking protocols, and encryption. Perl provides
- interfaces to C and C++ for custom extension development.
-
-Package: plutil
-Version: 0.2.2-1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 164
-Conflicts: com.ericasadun.utilities, com.bingner.plutil
-Provides: com.bingner.plutil (= 0.2.2-1)
-Filename: ./debs/plutil.deb
-Size: 32628
-MD5sum: 3cea0e8f2e6172e40c9512904a49e60d
-SHA1: 3ff2a053e22cbf0b90a1c1cc8d22d61ee8395955
-SHA256: 7c22e92044f6e717665e97141ee8178177ef47d8af96df220d0eb993e67213b4
-Section: System
-Description: Utility for creating and editing Apple property list files.
-Tag: role::hacker
-Author: Samuel Bingner
 
 Package: preferenceloader
 Version: 2022.06.14
@@ -2259,49 +444,15 @@ Architecture: iphoneos-arm
 Maintainer: Dustin Howett <dustin@howett.net>
 Installed-Size: 236
 Depends: mobilesubstrate
-Filename: ./debs/preferenceloader.deb
-Size: 23476
-MD5sum: e2f69974543e4454deac2299a414044c
-SHA1: 6c07f4ef44db54ad3d79df31b532d5e70396fef0
-SHA256: 1766fbdc5ece9f3c3d4dc02beec2b2e73928915f424affcd150b680744e20593
+Filename: ./repo/debs/preferenceloader.deb
+Size: 23490
+MD5sum: 64e79789ff477bd50961a2cbb1fe2aca
+SHA1: 91c8694ad84a4cfe283a2336325449cdd68c422b
+SHA256: cb008f87e960d3d217d26aeb5372a268f02bba6774a689272ac081e0ec695562
 Section: Tweaks
 Description: A lightweight and modern alternative to PreferenceLoader.
 Author: Dustin Howett <dustin@howett.net>
 Name: PreferenceLoader
-
-Package: procursus-keyring
-Version: 2020.05.09-2
-Architecture: all
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 4
-Depends: odyssey-keyring, chariz-keyring, packix-keyring
-Filename: ./debs/procursus-keyring.deb
-Size: 7958
-MD5sum: 6bfad9697b27592d12e929457aa1fe19
-SHA1: 4416f50ed9b72958f67b23a1b2d5f7dcdd426c2e
-SHA256: a22a50125ff42cd83c0b29799f857c21f185d1fb32ec4311c5facf6b9538da84
-Section: Keyrings
-Priority: required
-Description: GnuPG keys for the Procursus repo
-Name: Procursus APT Keyring
-
-Package: profile.d
-Version: 0-7
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 12
-Pre-Depends: system-cmds (>= 805.220.1)
-Depends: zsh
-Filename: ./debs/profile.d.deb
-Size: 1138
-MD5sum: ffd96d1023b441145e28e6c1be59ff0f
-SHA1: 5dd6541cdb9bcaea1b6bf85571791c9613608914
-SHA256: 732f188381902d3a807a25e63199a7b7732a4d8cd34d1ccc376e8376c7c909a9
-Section: Administration
-Priority: standard
-Description: makes packaging for /etc/profile reasonable
-Name: Profile Directory
 
 Package: rsync
 Version: 3.2.4-1
@@ -2310,11 +461,11 @@ Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 612
 Depends: libssl3, libzstd1, liblz4-1, libxxhash0, libpopt0
 Suggests: openssh-client, openssh-server
-Filename: ./debs/rsync.deb
-Size: 301504
-MD5sum: cf88446c20ebeb46f45516b1b5b13c98
-SHA1: 092214b45f2c4dc79714c178bf26993da947649e
-SHA256: 56ad81a5861a1818213725fa97eeede9f87100d07c1d134f39c33129375fa0fd
+Filename: ./repo/debs/rsync.deb
+Size: 301510
+MD5sum: 74327e97e0c6e6688727abbf9c44b5cf
+SHA1: 383058f2f6c963bf922fb4ceecda6563110698f2
+SHA256: e635eba273a72678a2ba74d72eef9513738547ffc930c406eb3c3c6b9101c970
 Section: Networking
 Priority: important
 Homepage: http://rsync.samba.org/
@@ -2330,217 +481,19 @@ Description: fast, versatile, remote (and local) file-copying tool
  This package provides both the rsync command line tool and optional
  daemon functionality.
 
-Package: sed
-Version: 4.8-2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 256
-Depends: libintl8
-Conflicts: text-cmds (<< 1:0)
-Replaces: text-cmds (<< 1:0)
-Filename: ./debs/sed.deb
-Size: 99658
-MD5sum: d55ece896beb2ad3a0c235f548cbc6f0
-SHA1: b37db2c0219d9eb8b757621d0e792066b69161d1
-SHA256: 48c7041fb03a5cc72c0959115f1bc0177b4e75bfa63cfb168ee04d7e33ddb9f7
-Section: Utilities
-Priority: important
-Multi-Arch: foreign
-Homepage: http://www.gnu.org/software/sed/
-Description: edits streams of text using patterns
-
-Package: shell-cmds
-Version: 207.40.1-2
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 672
-Depends: libpam2
-Conflicts: coreutils (<< 8.32-9)
-Provides: killall, which
-Filename: ./debs/shell-cmds.deb
-Size: 51834
-MD5sum: 756dd4010d8e6d38b7e347c4b9b087e8
-SHA1: d6825fc214bc451113427c8f98b2f391954c4f9a
-SHA256: b3f1594da4deded2c7a1f83363fa4efcf30b3017df833e69445b308b8e287078
-Section: Administration
-Priority: important
-Description: killall, renice, script, time, which, getopt, what, hexdump, su
-
-Package: shshd
-Version: 1.1.1.1
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 84
-Depends: libdimentio0 (>= 99), firmware (>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/shshd.deb
-Size: 11214
-MD5sum: 93fd59ce3848b4c98028aa49ee26d5a3
-SHA1: 4286004596043b31c6eed6aa6e43ec80e823d3ba
-SHA256: d73db175df66771633b1a35e6317892850c7cb857a9de5ec40a1716c5ddc8db9
-Section: Administration
-Priority: standard
-Description: SHSH blob saving daemon
- After installing, this package will automatically save your blobs
- to 1Conan's TSSSaver. The link to your specific blobs can be retrieved
- by manually running `/usr/sbin/shshd` as root (sudo/su) and copying the output, or by
- visiting "https://tsssaver.1conan.com/shsh/(your ecid in decimal form)".
- .
- This should be compatible with all devices using Procursus, including
- A12+ devices, as it saves blobs with the entangled apnonce. Requires
- you to set nonce generator before using.
-Author: Hayden Seay <me@diatr.us>
-
-Package: snaputil
-Version: 12.1
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 88
-Depends: firmware (>= 10.3)
-Filename: ./debs/snaputil.deb
-Size: 9090
-MD5sum: cbc7e490f49aeab8297212c41979669e
-SHA1: 080abcae1207a8152879449fdc6cd545ab1a334b
-SHA256: 4fd6a76097e139a9faff939a806ba8d6819d7f88a7c568077752eb9afc853da5
-Section: System
-Homepage: https://github.com/ahl/apfs/
-Description: APFS Snapshot Tool.
-
-Package: sudo
-Version: 1.9.8p2
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 6708
-Depends: libintl8, libpam2, libiosexec1
-Filename: ./debs/sudo.deb
-Size: 444
-MD5sum: fc47049bb607654accf1288ac5703064
-SHA1: dc1859a560dd1a96f5be4a405e0186915d94c761
-SHA256: 370b9960c1c380394669a43893a51e86d8ad0d8442e9d91a05f033d8c9a84fb3
-Section: Administration
-Priority: required
-Description: temporarily assume root priviledges
-
-Package: system-cmds
-Version: 854.40.2-14
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 2268
-Pre-Depends: libiosexec1
-Depends: firmware-sbin, file-cmds, libcrypt2, libpam2
-Recommends: vi
-Provides: login, passwd, reboot
-Filename: ./debs/system-cmds.deb
-Size: 249340
-MD5sum: c5ef8c04f8b74350e459074b1fb7d41d
-SHA1: 84b0fa34e0eb2b84603f0a7980208feaeceb6033
-SHA256: f803a48840fc03d6c656ff4bfc47387032ec609c5717bf0d9672c9b2819007d6
-Section: Administration
-Priority: required
-Description: iostat, login, passwd, sync, sysctl, pw
-
-Package: tar
-Version: 1.34
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 576
-Depends: libintl8
-Recommends: bzip2, gzip, xz-utils, zstd
-Filename: ./debs/tar.deb
-Size: 246180
-MD5sum: 2ccb0570f5f22b1f3c5330e0d682ed18
-SHA1: 63cb21b9b3492821b7cdc1fd4edc05fee74caa0c
-SHA256: 8a4043d14fb0a0b8766998309e275ca583bf80fee9d341340daa7cbd39ca9caf
-Section: Archiving
-Priority: required
-Homepage: http://www.gnu.org/software/tar/
-Description: tool for making tape archives
-
 Package: taurine-permanent
-Version: 1.1.5
+Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: Odyssey Team
-Filename: ./debs/taurine-permanent.deb
-Size: 31062070
-MD5sum: 2dd079a7507ea30fa760a7c334e4b69b
-SHA1: bececfccacf4f2effe8dc75a1f6c717e8fbeef22
-SHA256: baf7ef38a1c174ea88f19ebc60eab8a01dbb827fac42aafaa7b2ebd346458759
+Filename: ./repo/debs/taurine-permanent.deb
+Size: 30087890
+MD5sum: 142143985eceb8d304b5b1ddb78e8537
+SHA1: a5b13ccf7ba65e64c28294dcd2b49ba4b18d5a64
+SHA256: 0deaf2cd6af560ae33c53df35ba745cbc8b28a88eaedfcb2970ca2abb4ff0ebd
 Section: Applications
 Priority: standard
 Homepage: https://taurine.app/
 Description: (Relatively) permanent install of Taurine.
-
-Package: theos-dependencies
-Version: 0-1
-Architecture: all
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid
-Recommends: plutil, swift
-Conflicts: org.theos.dependencies
-Replaces: org.theos.dependencies
-Provides: org.theos.dependencies
-Filename: ./debs/theos-dependencies.deb
-Size: 692
-MD5sum: d6827a1bc6a52f710cacf5ab47d065ec
-SHA1: e6ce9703c4b2d295ff63f3e348cc2375733e9263
-SHA256: d5c83ef1005628760a553ca779027fa2eccd7060d65fa46d324dd8b96c12545c
-Section: Development
-Priority: optional
-Description: What Theos needs.
- This metapackage installs grep, rsync, unzip, git, perl, xz-utils, and the iOS Toolchain in one go.
-Name: Theos Dependencies
-
-Package: uikittools
-Version: 2.1.1
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 688
-Suggests: uikittools-extra (= 2.1.1)
-Filename: ./debs/uikittools.deb
-Size: 64396
-MD5sum: e8ac8ec055f4c1de5b81e70d4ac84746
-SHA1: b7b11ad2148e1aa5543ae987aa0f5bace814e32a
-SHA256: 68a4a3049d994e4bd12d34604e3cbbbf002ddb10fa24a89f66c05b4c543888b0
-Section: Utilities
-Priority: required
-Description: Command line access for UIKit/LaunchServices/CoreServices
-
-Package: unrar
-Version: 6.1.4
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 396
-Filename: ./debs/unrar.deb
-Size: 153016
-MD5sum: 10959e7c083704138717f3abec87cd55
-SHA1: 9c82a7f6870af3b3440cce38f0ee62412f3377e1
-SHA256: 5101b61063ed20d0c5735c621b8d098e472d37ed0b409e8a0d080b0a1a5c921f
-Section: Archiving
-Priority: optional
-Multi-Arch: foreign
-Homepage: http://www.rarlab.com/rar_add.htm
-Description: Unarchiver for .rar files (non-free version)
- Unrar can extract files from .rar archives. If you want to create .rar
- archives, install package rar.
-
-Package: unzip
-Version: 6.0-25
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1464
-Filename: ./debs/unzip.deb
-Size: 119872
-MD5sum: 017b78723e10b390df6ee7b7d4915094
-SHA1: 9cc3e89e6fd59fbc437ac78784fac052171601f5
-SHA256: fbbd215d49d6e56fc97eee22193ea51ce3018f096a4bd4a2981eec6e41333599
-Section: Archiving
-Priority: important
-Description: de-compesses files in zip format
-Tag: purpose::console, role::hacker
 
 Package: ws.hbang.alderis
 Version: 1.2
@@ -2550,11 +503,11 @@ Installed-Size: 2420
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
 Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
 Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
-Filename: ./debs/ws.hbang.alderis.deb
-Size: 424840
-MD5sum: 1b0ad9c5c068a92ba9c24ebbfc1b306f
-SHA1: e95d7d0fe7be20e3c51a3558c9fb1272ac319c8e
-SHA256: f76b914967edcf585ed46bb893a81fc48d147fc02d6c9dacef20194543af5612
+Filename: ./repo/debs/ws.hbang.alderis.deb
+Size: 424866
+MD5sum: 322c1d60f0d92276c1cbcd226b26c99a
+SHA1: f31243ccd63a07913544dbdedb6ee8c691c29b43
+SHA256: 4fc1e16c6c701a32203885f583ab40524fc6bcde5d53449b28daef9db6a302b6
 Section: Development
 Description: Color picker support library for tweaks
 Tag: role::developer, compatible_min::ios12.0
@@ -2570,11 +523,11 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 5072
-Filename: ./debs/ws.hbang.runtimebrowser.deb
-Size: 1567534
-MD5sum: 7274fae43c08abab529fdaf8ee8eebe9
-SHA1: 33b311aaa7bd2907517fc45e2d24390db167f8f7
-SHA256: b8fc1b98c3ddeac0eaaa36a9ac687be3a04318d85a6fe51b050c3a1cfe12ffa9
+Filename: ./repo/debs/ws.hbang.runtimebrowser.deb
+Size: 1567532
+MD5sum: 8fcc536832f17665b20047c5a5fb06e5
+SHA1: ce2d083db8f8f7e538dcfdcdf5cbe485ef8b1489
+SHA256: f7bc143d54e320ac0486a76f98214bf06d0ce98946b6c10ba888478d4ad7190e
 Section: Utilities
 Description: Class browser for Objective-C runtime
 Tag: role::hacker, compatible_min::ios8.0
@@ -2582,75 +535,4 @@ Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://chariz.com/get/runtimebrowser
 Icon: https://chariz.com/cdn/icon/runtimebrowser/icon@3x.png
 Name: RuntimeBrowser
-
-Package: xz-utils
-Version: 5.2.5-3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 244
-Depends: liblzma5 (>= 5.2.5-3), libintl8
-Conflicts: xz (<< 1:0), lzma (<< 3:0)
-Replaces: xz, lzma
-Provides: xz (= 1:0), lzma (= 3:0)
-Filename: ./debs/xz-utils.deb
-Size: 60758
-MD5sum: 8c5cdd6b435275429bd73a892524e6d2
-SHA1: b2afb5e3962746d8d7d3826444cea8db23a7fe2f
-SHA256: afe82307cb90fbb362b24ced345b8a13f00234a45551b634911be18ce2f7d546
-Section: Archiving
-Priority: standard
-Homepage: https://tukaani.org/xz/
-Description: XZ-format compression utilities
- XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
- compression format, which provides memory-hungry but powerful
- compression (often better than bzip2) and fast, easy decompression.
- .
- This package provides the command line tools for working with XZ
- compression, including xz, unxz, xzcat, xzgrep, and so on. They can
- also handle the older LZMA format, and if invoked via appropriate
- symlinks will emulate the behavior of the commands in the lzma
- package.
- .
- The XZ format is similar to the older LZMA format but includes some
- improvements for general use:
- .
-  * 'file' magic for detecting XZ files;
-  * crc64 data integrity check;
-  * limited random-access reading support;
-  * improved support for multithreading (not used in xz-utils);
-  * support for flushing the encoder.
-Name: XZ Utils
-
-Package: zip
-Version: 3.0-11
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1392
-Filename: ./debs/zip.deb
-Size: 142822
-MD5sum: 0b76629b884c5a21382a5a2606537543
-SHA1: 33b83a4b10b9cd9a110abcc0fdb2b82116b4ee1d
-SHA256: be61ab0bc666dbcc8f9e416cdda98f60d7d75a5a1dc5417f07f884d25d924a80
-Section: Archiving
-Priority: important
-Multi-Arch: foreign
-Description: standard Windows compression tool
-Tag: purpose::console, role::hacker
-
-Package: zsh
-Version: 5.9
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 12140
-Pre-Depends: debianutils (>= 4.11.2)
-Depends: libiosexec1, libncursesw6, libpcre1, debianutils (>= 4.11.2)
-Filename: ./debs/zsh.deb
-Size: 2212030
-MD5sum: 01e78dd3517e3386185cf507c41607dd
-SHA1: 86f25d355a987e037b9eaa558dfd5ece54c9432d
-SHA256: c3ce3476bf4fbead4e709a50f3d9849645b3a4cea1bdd3d151f5c41c6b26e0f5
-Section: Terminal_Support
-Priority: required
-Description: a shell with interactive features
 
