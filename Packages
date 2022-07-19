@@ -174,6 +174,23 @@ Maintainer: TIGI Software
 Installed-Size: 21860
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit_3.9.0-2_iphoneos-arm.deb
+Size: 8476070
+MD5sum: b5c0faa9d5650c370640adf3097b9a23
+SHA1: c64f82dfdac3a6e6233553852602bbb428137697
+SHA256: 624206dcc388e5e70f783fc066ad4713a102ade40f6205d33ff0dae951092982
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.tigisoftware.filza64bit
+Version: 3.9.0-2
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 21860
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
 Filename: ./debs/com.tigisoftware.filza64bit.deb
 Size: 7361370
 MD5sum: 86f1b11c7ffc908f4fb16ccc02881c2a
@@ -327,6 +344,26 @@ Tag: role::hacker
 Author: zyl0462
 Name: xloc
 
+Package: gzip
+Version: 1.11
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 337
+Filename: ./debs/gzip.deb
+Size: 102792
+MD5sum: 4140854c6de87df6ea0418c621101124
+SHA1: 4a5330a5a30f898756230574c1757240ffb498fc
+SHA256: 347c79744f40f265f443dc0f0c03b54397cb061d3b3cd09779e23bc88cf212a8
+Section: Archiving
+Priority: standard
+Multi-Arch: foreign
+Homepage: http://www.gzip.org/
+Description: GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+
 Package: net.angelxwind.appsyncunified
 Version: 2022.06.14
 Architecture: iphoneos-arm
@@ -443,6 +480,23 @@ Description: Reddit removes all AdPost and all RecommendedPost, Only version 202
 Author: Netskao
 Name: Reddit NoAds
 
+Package: p7zip
+Version: 17.04
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 9572
+Filename: ./debs/p7zip.deb
+Size: 2054614
+MD5sum: 768af56c0be9cc07fb14fd4dc3e7ceb7
+SHA1: ccc7bdfb51ba9e90b4a582b3d1c04b9ef335f261
+SHA256: 9d03c944e6c3a4ed880a4ffead456e3795eaa8804717ca183e640a49567b2e34
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Description: claims to be a good compressor
+Tag: purpose::console, role::hacker
+Name: 7-zip (POSIX)
+
 Package: preferenceloader
 Version: 2022.06.14
 Architecture: iphoneos-arm
@@ -500,6 +554,39 @@ Priority: standard
 Homepage: https://taurine.app/
 Description: (Relatively) permanent install of Taurine.
 
+Package: unrar
+Version: 6.1.4
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 396
+Filename: ./debs/unrar.deb
+Size: 153016
+MD5sum: 10959e7c083704138717f3abec87cd55
+SHA1: 9c82a7f6870af3b3440cce38f0ee62412f3377e1
+SHA256: 5101b61063ed20d0c5735c621b8d098e472d37ed0b409e8a0d080b0a1a5c921f
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: unzip
+Version: 6.0-25
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1464
+Filename: ./debs/unzip.deb
+Size: 119872
+MD5sum: 017b78723e10b390df6ee7b7d4915094
+SHA1: 9cc3e89e6fd59fbc437ac78784fac052171601f5
+SHA256: fbbd215d49d6e56fc97eee22193ea51ce3018f096a4bd4a2981eec6e41333599
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
 Package: ws.hbang.alderis
 Version: 1.2
 Architecture: iphoneos-arm
@@ -540,4 +627,20 @@ Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://chariz.com/get/runtimebrowser
 Icon: https://chariz.com/cdn/icon/runtimebrowser/icon@3x.png
 Name: RuntimeBrowser
+
+Package: zip
+Version: 3.0-11
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1392
+Filename: ./debs/zip.deb
+Size: 142822
+MD5sum: 0b76629b884c5a21382a5a2606537543
+SHA1: 33b83a4b10b9cd9a110abcc0fdb2b82116b4ee1d
+SHA256: be61ab0bc666dbcc8f9e416cdda98f60d7d75a5a1dc5417f07f884d25d924a80
+Section: Archiving
+Priority: important
+Multi-Arch: foreign
+Description: standard Windows compression tool
+Tag: purpose::console, role::hacker
 
