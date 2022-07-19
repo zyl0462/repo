@@ -3,7 +3,7 @@ Version: 1.4-1
 Architecture: iphoneos-arm
 Maintainer: anondev
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Filename: ./repo/debs/anondev.localiapstore.deb
+Filename: ./debs/anondev.localiapstore.deb
 Size: 44778
 MD5sum: d1bf43032928f67c8d0803af0850c89f
 SHA1: 2a0d41fcae9f62ecb6dd290a94cca0ce11cc8e25
@@ -19,7 +19,7 @@ Architecture: iphoneos-arm
 Maintainer: Amy While <support@anamy.gay>
 Installed-Size: 1684
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.1)
-Filename: ./repo/debs/com.amywhile.aemulotrial.deb
+Filename: ./debs/com.amywhile.aemulotrial.deb
 Size: 444426
 MD5sum: ee43874fc5e94a89b64b7aeed11d3ef3
 SHA1: dbea82a9149c42e8000ad90a0e8ad3d3381e62e1
@@ -38,7 +38,7 @@ Architecture: iphoneos-arm
 Maintainer: ichitaso
 Installed-Size: 200
 Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
-Filename: ./repo/debs/com.ichitaso.otadisabler.deb
+Filename: ./debs/com.ichitaso.otadisabler.deb
 Size: 8472
 MD5sum: 6ec73053441bc4669bc09c28ce4b4103
 SHA1: b88c5cfaa2937dd2e36a4d9667872776fd6a2394
@@ -54,7 +54,7 @@ Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: JustinPet26
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.justinpet26.iap26.deb
+Filename: ./debs/com.justinpet26.iap26.deb
 Size: 10818
 MD5sum: 363c0345e6eafdaf7cce3403b642b3c7
 SHA1: 3005c7af9dce82cba068914a13dcda1cf2af5f56
@@ -69,7 +69,7 @@ Version: 2020.06.30
 Architecture: iphoneos-arm
 Maintainer: Len
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.len.unjail.deb
+Filename: ./debs/com.len.unjail.deb
 Size: 18718
 MD5sum: c5fafd3f30ab9e27607868e5607fb264
 SHA1: a93cfda0febdcc64bf610fc1967be0d9f7a2ce27
@@ -85,7 +85,7 @@ Architecture: iphoneos-arm
 Maintainer: opa334
 Installed-Size: 172
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.opa334.ccsupport.deb
+Filename: ./debs/com.opa334.ccsupport.deb
 Size: 27822
 MD5sum: 1067c9921076d222dc20dc5c61e077d2
 SHA1: f48f79774c524405491d3b876455cf692b569b1b
@@ -102,7 +102,7 @@ Architecture: iphoneos-arm
 Maintainer: pxcex
 Installed-Size: 384
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.pxcex.starvpnhack.deb
+Filename: ./debs/com.pxcex.starvpnhack.deb
 Size: 79572
 MD5sum: 88435ec6513868b435e0985267f1a4ad
 SHA1: 50f32b4f9f04c36c3e3c66d7d6c5898f7e98196e
@@ -118,7 +118,7 @@ Architecture: iphoneos-arm
 Maintainer: pxcex
 Installed-Size: 288
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.pxcexbetternethack.deb
+Filename: ./debs/com.pxcexbetternethack.deb
 Size: 68636
 MD5sum: c8b57516212e8966dae6dcc0d45fada9
 SHA1: 44f9f8dab2049149a89f345f13c6cf17a3460444
@@ -134,7 +134,7 @@ Architecture: iphoneos-arm
 Maintainer: Riley Testut <support@altstore.io>
 Installed-Size: 2560
 Depends: firmware (>= 12.2)
-Filename: ./repo/debs/com.rileytestut.altdaemon.deb
+Filename: ./debs/com.rileytestut.altdaemon.deb
 Size: 681318
 MD5sum: 3c73e16807c85b2ef7e2b38fda4bdd78
 SHA1: 1b0ed9abed91b7b8306e48595b969a4b5bad2da4
@@ -154,7 +154,7 @@ Maintainer: TIGI Software
 Installed-Size: 21860
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./repo/debs/com.tigisoftware.filza64bit.deb
+Filename: ./debs/com.tigisoftware.filza64bit.deb
 Size: 7361370
 MD5sum: 86f1b11c7ffc908f4fb16ccc02881c2a
 SHA1: 5cfc39cde1337c1fd2f06938f6399f8cf1c6fb16
@@ -169,7 +169,7 @@ Version: 2022.06.30
 Architecture: iphoneos-arm
 Maintainer: zyl0462
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./repo/debs/com.zyl0462.addons.deb
+Filename: ./debs/com.zyl0462.addons.deb
 Size: 120102
 MD5sum: c13fd65f47f855b21a3ef1a76bf75a60
 SHA1: d2105a960de5002473d39028abdf3473494b2d87
@@ -185,7 +185,7 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 280
 Depends: mobilesubstrate, preferenceloader
-Filename: ./repo/debs/com.zyl0462.appdata.deb
+Filename: ./debs/com.zyl0462.appdata.deb
 Size: 68174
 MD5sum: cb58d0f790b3a8fdaa7c0ef17a56197b
 SHA1: d29f9f00044957c894a3d35f61bfee403d873c53
@@ -201,7 +201,7 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/com.zyl0462.apptweaks.deb
+Filename: ./debs/com.zyl0462.apptweaks.deb
 Size: 7752
 MD5sum: fbd25198d31cf61005c84b8a0ed7021f
 SHA1: a1f8da56182b01fdc04e9c663c9afea5080892ec
@@ -217,7 +217,7 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 232
 Depends: mobilesubstrate, rsync, coreutils, tar
-Filename: ./repo/debs/com.zyl0462.backuptweaks.deb
+Filename: ./debs/com.zyl0462.backuptweaks.deb
 Size: 33888
 MD5sum: b83f4cc9acfe181a4c72ccd5bdc38f9f
 SHA1: f5088268417cea7298332517ca48393879a7dc8f
@@ -233,7 +233,7 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 216
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: ./repo/debs/com.zyl0462.iap64e.deb
+Filename: ./debs/com.zyl0462.iap64e.deb
 Size: 28800
 MD5sum: 50b3184006a93eea8dfc47baaea1ca85
 SHA1: ea209af86c576f4c8efd94fea1c9e963068486ab
@@ -249,7 +249,7 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 92
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.zyl0462.kbtweaks.deb
+Filename: ./debs/com.zyl0462.kbtweaks.deb
 Size: 9804
 MD5sum: 7d76652e2e5b76f9d94631ce1d384a14
 SHA1: 20bf96df93f917a705c3b8023fad0846e0bfa13f
@@ -265,7 +265,7 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 92
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.zyl0462.surge4x.deb
+Filename: ./debs/com.zyl0462.surge4x.deb
 Size: 6722
 MD5sum: 94e89f54593077dc2cd6d44633c362bd
 SHA1: 30683689e7a891f3a4c6a205f1aa1892fe1c46c9
@@ -281,7 +281,7 @@ Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./repo/debs/com.zyl0462.systweaks.deb
+Filename: ./debs/com.zyl0462.systweaks.deb
 Size: 6278
 MD5sum: 5c463c992973b630fe07a2d86b9ca6be
 SHA1: a969ec3c5f344d58e0cd10030cf393fecac91efd
@@ -296,7 +296,7 @@ Version: 2020.06.14
 Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 112
-Filename: ./repo/debs/com.zyl0462.xlocation.deb
+Filename: ./debs/com.zyl0462.xlocation.deb
 Size: 15912
 MD5sum: 5e821eb434bfe5314eba1678e657575a
 SHA1: 4bb9971277a53ce7905d0999401bebbd028a8142
@@ -312,7 +312,7 @@ Version: 7.9.1
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi
 Depends: firmware (>= 4.0), findutils, apt | apt7
-Filename: ./repo/debs/icleanerpro.deb
+Filename: ./debs/icleanerpro.deb
 Size: 2432034
 MD5sum: 3dc8c4568855df7d5ab85b44249a5085
 SHA1: beb0524ab9fabd9305c8d89b08d0c534d8f1ff41
@@ -329,7 +329,7 @@ Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 268
 Depends: firmware (>= 14.0), mobilesubstrate
 Provides: appsync
-Filename: ./repo/debs/net.angelxwind.appsyncunified.deb
+Filename: ./debs/net.angelxwind.appsyncunified.deb
 Size: 11992
 MD5sum: efdc2d519821f154824ce6b1d12877fa
 SHA1: 2928e6c4eea6e56e970f38a65603591f7ff318e9
@@ -347,7 +347,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 584
 Depends: firmware (>= 9.0), mobilesubstrate
-Filename: ./repo/debs/netskao.bilibilipure.deb
+Filename: ./debs/netskao.bilibilipure.deb
 Size: 174610
 MD5sum: ea936cbbe7f11d714d14aa1c2bb11657
 SHA1: b9695a1f83e53bca2cd0f3cfa2902ab27529ab37
@@ -362,7 +362,7 @@ Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1828
-Filename: ./repo/debs/netskao.classdump.deb
+Filename: ./debs/netskao.classdump.deb
 Size: 671022
 MD5sum: a7019a0e2ff8f30b54a221447cc029d1
 SHA1: 37dbba4a93a96e6e1ee75162a6826c0ad7a8675c
@@ -379,7 +379,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./repo/debs/netskao.clearallmessages.deb
+Filename: ./debs/netskao.clearallmessages.deb
 Size: 11594
 MD5sum: a74686fb2183a56a0ac82a181e9d0bae
 SHA1: d9ad9852a437e0f2abc32c95c1b026dce80fd636
@@ -395,7 +395,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 2992
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./repo/debs/netskao.dumpdecrypter.deb
+Filename: ./debs/netskao.dumpdecrypter.deb
 Size: 1115272
 MD5sum: edbe0acb517aae22b1cd3c6aefc8baba
 SHA1: af38c8e646e56bfa8d24138bcbaa57bf90e4e777
@@ -411,7 +411,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 172
 Depends: mobilesubstrate, com.tigisoftware.filza64bit
-Filename: ./repo/debs/netskao.filzacrack.deb
+Filename: ./debs/netskao.filzacrack.deb
 Size: 27404
 MD5sum: 0e9bfd1e973c3843c8bcce6e84887cf3
 SHA1: 1671fe22354d328d4f550d28d7b83c3d99bd807e
@@ -428,7 +428,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 352
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./repo/debs/netskao.redditnoads.deb
+Filename: ./debs/netskao.redditnoads.deb
 Size: 92082
 MD5sum: a7c59431f8b380ce16f7e2fdfea8e3cc
 SHA1: 02f54e70ec36171666b144e73123510efeca6fd2
@@ -444,7 +444,7 @@ Architecture: iphoneos-arm
 Maintainer: Dustin Howett <dustin@howett.net>
 Installed-Size: 236
 Depends: mobilesubstrate
-Filename: ./repo/debs/preferenceloader.deb
+Filename: ./debs/preferenceloader.deb
 Size: 23490
 MD5sum: 64e79789ff477bd50961a2cbb1fe2aca
 SHA1: 91c8694ad84a4cfe283a2336325449cdd68c422b
@@ -461,7 +461,7 @@ Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 612
 Depends: libssl3, libzstd1, liblz4-1, libxxhash0, libpopt0
 Suggests: openssh-client, openssh-server
-Filename: ./repo/debs/rsync.deb
+Filename: ./debs/rsync.deb
 Size: 301510
 MD5sum: 74327e97e0c6e6688727abbf9c44b5cf
 SHA1: 383058f2f6c963bf922fb4ceecda6563110698f2
@@ -485,7 +485,7 @@ Package: taurine-permanent
 Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: Odyssey Team
-Filename: ./repo/debs/taurine-permanent.deb
+Filename: ./debs/taurine-permanent.deb
 Size: 30087890
 MD5sum: 142143985eceb8d304b5b1ddb78e8537
 SHA1: a5b13ccf7ba65e64c28294dcd2b49ba4b18d5a64
@@ -503,7 +503,7 @@ Installed-Size: 2420
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
 Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
 Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
-Filename: ./repo/debs/ws.hbang.alderis.deb
+Filename: ./debs/ws.hbang.alderis.deb
 Size: 424866
 MD5sum: 322c1d60f0d92276c1cbcd226b26c99a
 SHA1: f31243ccd63a07913544dbdedb6ee8c691c29b43
@@ -523,7 +523,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 5072
-Filename: ./repo/debs/ws.hbang.runtimebrowser.deb
+Filename: ./debs/ws.hbang.runtimebrowser.deb
 Size: 1567532
 MD5sum: 8fcc536832f17665b20047c5a5fb06e5
 SHA1: ce2d083db8f8f7e538dcfdcdf5cbe485ef8b1489
