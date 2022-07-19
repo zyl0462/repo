@@ -32,6 +32,26 @@ Depiction: https://chariz.com/get/aemulo-trial
 Icon: https://cdn.chariz.cloud/icon/aemulo-trial/icon@3x.png
 Name: Aemulo (Trial)
 
+Package: com.exile90.icleanerpro
+Version: 7.9.1
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 4786998
+MD5sum: ccd722461350e28e2e0b5a029416ca6c
+SHA1: 36acad04b82db75d345c91ee363a27eb4d602a27
+SHA256: f1e6087494618183f7539bba3a38ee88608383868cfcd524f99b46d7e7a27a47
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
 Package: com.ichitaso.otadisabler
 Version: 0.2
 Architecture: iphoneos-arm
@@ -306,21 +326,6 @@ Description: Simulate your location, Coordinates can be configured in Terminal.
 Tag: role::hacker
 Author: zyl0462
 Name: xloc
-
-Package: icleanerpro
-Version: 7.9.1
-Architecture: iphoneos-arm
-Maintainer: Ivano Bilenchi
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Filename: ./debs/icleanerpro.deb
-Size: 2432034
-MD5sum: 3dc8c4568855df7d5ab85b44249a5085
-SHA1: beb0524ab9fabd9305c8d89b08d0c534d8f1ff41
-SHA256: 3015091b62775ef270db395e056d082aeb68e3946102636bcc447d021eeee35d
-Section: tweak
-Description: iCleaner Pro crack iOS9-14
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: iCleaner Pro
 
 Package: net.angelxwind.appsyncunified
 Version: 2022.06.14
