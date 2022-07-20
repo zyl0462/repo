@@ -239,10 +239,10 @@ Maintainer: zyl0462
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.zyl0462.apptweaks.deb
-Size: 7752
-MD5sum: fbd25198d31cf61005c84b8a0ed7021f
-SHA1: a1f8da56182b01fdc04e9c663c9afea5080892ec
-SHA256: d61f0f930a3aa59505a57dd67d91d28f27375c0b97d24b7833ffded91b3a3bc6
+Size: 8000
+MD5sum: 1ef6f5c748a5747106aa32c5425fbbb5
+SHA1: 97daf67e30c2c44eaa1675ee820f71744850c8d0
+SHA256: 512a880a1df856b5f594f21f808fa4e5b244b37d34bdd02cd2b8ce15fc5fd73c
 Section: Tweaks
 Description: My own app tweaks!
 Author: zyl0462
