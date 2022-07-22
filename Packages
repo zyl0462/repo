@@ -167,6 +167,22 @@ Depiction: https://chariz.com/get/altdaemon
 Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
 Name: AltDaemon
 
+Package: com.ssl.dingtalk
+Version: 2022.07.20
+Architecture: iphoneos-arm
+Maintainer: zyl0462
+Installed-Size: 328
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ssl.dingtalk_2022.07.20.deb
+Size: 26774
+MD5sum: 2cc982d74c78d207bcdd56563cb7fb01
+SHA1: 41041b25680386e4015134dbdfd3b34bc3588eeb
+SHA256: ed3a27e08502498c2020a71e4a4f043e1f5f5bfc2ab235362780257cbc469c88
+Section: Tweaks
+Description: dingtalk tweaks!
+Author: zyl0462
+Name: DingTalk
+
 Package: com.tigisoftware.filza64bit
 Version: 3.9.0-2
 Architecture: iphoneos-arm
