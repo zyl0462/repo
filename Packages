@@ -200,23 +200,6 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This sp
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.tigisoftware.filza64bit
-Version: 3.9.0-2
-Architecture: iphoneos-arm
-Maintainer: TIGI Software
-Installed-Size: 21860
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit.deb
-Size: 7361370
-MD5sum: 86f1b11c7ffc908f4fb16ccc02881c2a
-SHA1: 5cfc39cde1337c1fd2f06938f6399f8cf1c6fb16
-SHA256: bbf77572c7378d81a58396ff10f93f5c377d29c2234c2198b63019312c70a624
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
 Package: com.zyl0462.addons
 Version: 2022.06.30
 Architecture: iphoneos-arm
