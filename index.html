@@ -32,45 +32,7 @@
  
 </div>
 </div>
-</div>
 <div class="container">
   <h2 id="wells" class="page-header">个人自用插件源</h2>
-<center><h4><span id="year"></span>年
-    <span id="month"></span>月
-    <span id="day"></span>日
-    星期<span id="week"></span>
-    <span id="h"></span>时 <span id="m"></span>分 <span id="s"></span>秒
-    
-    <script type="text/javascript">
-        var year = document.getElementById('year'),
-        month = document.getElementById('month'),
-        day = document.getElementById('day'),
-        week = document.getElementById('week'),
-        h = document.getElementById('h'),
-        m = document.getElementById('m'),
-        s = document.getElementById('s');
-        function timed() {
-            var time = new Date();
-            year.innerHTML=time.getFullYear();
-            month.innerHTML=time.getMonth()+1;
-            day.innerHTML=time.getDate();
-            week.innerHTML = time.getDay();
-            h.innerHTML=time.getHours();
-            m.innerHTML=(time.getMinutes() > 9 ? time.getMinutes() : "0" + time.getMinutes());
-            s.innerHTML=(time.getSeconds() > 9 ? time.getSeconds() : "0" + time.getSeconds());
-            w = time.getDay();
-            var weekArr = ['天','一','二','三','四','五','六'];
-            for(var i = 0;i<weekArr.length;i++) {
-                if (w == i) {
-                    week.innerHTML= weekArr[i];
-                }
-            }
-            setTimeout("timed()",1000);
-            
-        }
-    timed();
-        </script></h4>
-</center>
-</div>
 </div>
 </html>
