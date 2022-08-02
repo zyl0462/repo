@@ -280,16 +280,16 @@ Author: zyl0462
 Name: iAP64e
 
 Package: com.zyl0462.kbtweaks
-Version: 2022.07.20
+Version: 2022.08.01
 Architecture: iphoneos-arm
 Maintainer: zyl0462
 Installed-Size: 92
 Depends: mobilesubstrate
-Filename: ./debs/com.zyl0462.kbtweaks_2022.07.20_iphoneos-arm.deb
-Size: 8994
-MD5sum: cce7b62e21faf3d98d0c67e358ad7469
-SHA1: 9cf957e1eb692d83b05843c9c1bb52e950223542
-SHA256: bc7e1acaefc25dab15c9ab909d5555ddf72932d4b4f9c76b661352be834033b1
+Filename: ./debs/com.zyl0462.kbtweaks_2022.08.01_iphoneos-arm.deb
+Size: 9658
+MD5sum: 123aadc25bf1970f4712ae7263957c27
+SHA1: 33f105eb9d830183875b311b75c10d7b26a62e56
+SHA256: bf88fc826d57a82dec9d546b907184a7dd940fc79409031cf7d7927952e24f60
 Section: Tweaks
 Description: KBDock tweaks.
 Author: zyl0462
@@ -312,16 +312,16 @@ Author: zyl0462
 Name: Surge4X
 
 Package: com.zyl0462.systweaks
-Version: 2022.07.20
+Version: 2022.08.02
 Architecture: iphoneos-arm
 Maintainer: zyl0462
-Installed-Size: 88
+Installed-Size: 104
 Depends: mobilesubstrate
-Filename: ./debs/com.zyl0462.systweaks_2022.07.20_iphoneos-arm.deb
-Size: 6218
-MD5sum: 3973300356f90c92719a107a34e260e2
-SHA1: dbc769067bbd07d8f2ddb83d3c5490a01cdf07df
-SHA256: 4bd9b1693a2c03a87b472b2bbe053a5892588707f541d442fce9fb3f19169eea
+Filename: ./debs/com.zyl0462.systweaks_2022.08.02_iphoneos-arm.deb
+Size: 5192
+MD5sum: 23c843dac7d8cd47f50dc643a81c3a80
+SHA1: 7db3e50d75c3fd7e7e390837b784cdd973e76476
+SHA256: e531efeee114c8ecffbd4ba2f93e646325b99d4594df3dee62ddfb1e6d906386
 Section: Tweaks
 Description: My own system tweaks!
 Author: zyl0462
