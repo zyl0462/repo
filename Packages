@@ -167,6 +167,22 @@ Depiction: https://chariz.com/get/altdaemon
 Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
 Name: AltDaemon
 
+Package: com.samgisaninja.successionrestore
+Version: 1.4.16~b4
+Architecture: iphoneos-arm
+Maintainer: Samg_is_a_Ninja
+Depends: firmware-sbin, rsync
+Filename: ./debs/com.samgisaninja.successionrestore_1.4.16~b4_iphoneos-arm.deb
+Size: 1179304
+MD5sum: 9183c09c38e94fa35e0e09cf4bd3ea4f
+SHA1: 5e9635c6bbb04123cb46655a8005d54b262cb3e9
+SHA256: 1884e5bcb0e72987c0845b27a8faef76b0d325fa14bb9d2fa908993ac10b95b8
+Section: Utilities
+Description: Restore without updating via rootfilesystem DMG
+Author: Samg_is_a_Ninja
+Icon: file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
+Name: Succession
+
 Package: com.ssl.dingtalk
 Version: 2022.07.20
 Architecture: iphoneos-arm
